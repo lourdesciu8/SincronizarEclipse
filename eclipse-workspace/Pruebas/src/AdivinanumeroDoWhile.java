@@ -9,7 +9,7 @@ public class AdivinanumeroDoWhile {
 		 * no se ejecute el código de dentro del while. Se aprovecha el ejemplo de AdivinanumeroWhile
 		 * para transformarle a do while.
 		 */
-		
+		double;
 		int aleatorio=(int)(Math.random()*100);
 		Scanner sc=new Scanner(System.in);
 		int numero=0;

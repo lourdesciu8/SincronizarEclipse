@@ -16,6 +16,7 @@ public class principalAlumno {
 		
 		a1.setNombre("ana");
 		System.out.println("El nombre del alumno 1 es: " +a1.getNombre());
+		
 	}
 
 }

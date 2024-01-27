@@ -2,7 +2,7 @@ package ejemploMetodos;
 
 import java.util.Scanner;
 
-public class principal {
+public class principalCuenta {
 //Esta es la clase principal que es la que tiene el método main
 	
 	public static void main(String[] args) {

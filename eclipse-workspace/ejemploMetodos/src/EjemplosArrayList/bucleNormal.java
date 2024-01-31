@@ -16,6 +16,8 @@ public class bucleNormal {
 		System.out.println("Tamaño del arrayList: "+nombres.size());
 		System.out.println();
 		
+		//Hay 3 formas de recorrer un arraylist
+		
 		//bucle for normal
 		/*for(int i=0;i<nombres.size();i++) {
 			System.out.println("Contenido de la posición numero "+i+": "+nombres.get(i));

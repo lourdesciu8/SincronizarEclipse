@@ -48,7 +48,6 @@ public void TestEdad() {
 	boolean Edad=objeto2.ComprobarMayorDeEdad();
 	assertEquals(MayorDeEdad,Edad);
 	
-	// Al introducir mensaje de error (String) me da fallo en el assertEquals
 }
 
 }

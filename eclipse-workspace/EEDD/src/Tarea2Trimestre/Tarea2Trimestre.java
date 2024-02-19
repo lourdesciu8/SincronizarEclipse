@@ -31,10 +31,6 @@ public class Tarea2Trimestre {
 	
 
 	public int CalcularPuntuacionFinal(int puntuacionEjercicio, int dificultad) {
-		System.out.println("Introduce puntuación del ejercicio del 1 al 10");
-		puntuacionEjercicio=sc.nextInt();
-		System.out.println("Introduce dificultad del ejercicio usando rango del 1 al 10");
-		dificultad=sc.nextInt();
 		
 		if (puntuacionEjercicio>0 && dificultad>0) {
 		

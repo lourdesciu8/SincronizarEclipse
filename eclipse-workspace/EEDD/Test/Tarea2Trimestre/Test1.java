@@ -37,7 +37,6 @@ public void TestPuntuacion() {
 	int puntuacion=objeto1.CalcularPuntuacionFinal(puntuacionEjercicio, dificultad);
 	assertEquals(PuntuacionFinal,puntuacion);
 	
-	// Al introducir mensaje de error (String) me da fallo en el assertEquals
 }
 
 }

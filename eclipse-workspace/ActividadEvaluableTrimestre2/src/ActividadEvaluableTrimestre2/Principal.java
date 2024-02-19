@@ -10,17 +10,14 @@ public class Principal {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String dni, nombre;
-		int edad, opcion;
-		boolean casado;
-		double salario;
+		String dni;
+		int opcion;
+		double salario, PorcentajeAumento;
 		
 		int lineasDeCodigoPorHora;
 		String lenguajeDominante;
 		
-		
 		Programador p1;
-		
 		
 		//Se crea 1 arraylist para guardar los datos que se vayan generando de Programador.
 		ArrayList<Programador>ProgramadoresArray=new ArrayList<Programador>();
@@ -32,6 +29,7 @@ public class Principal {
 			switch(opcion) {
 				case 1: System.out.println("Dime dni del programador: ");
 						dni=sc.next();
+						sc.nextLine();
 						
 						if(!comprobarExisteProgramador(dni,ProgramadoresArray)) {
 							darAltaProgramador(dni,ProgramadoresArray,sc);
@@ -44,16 +42,31 @@ public class Principal {
 						darBajaProgramador(dni,ProgramadoresArray);
 					break;
 					
-				case 3:  System.out.println("Diga cuanto quiere aumentar el salario de un programador: ");
-				Programador pr=new Programador(double PorcentajeAumento);
-				System.out.println(pr.AumentarSalario);
-				break;
+				case 3: System.out.println("Dime dni del programador: ");
+						dni=sc.next();
+						sc.nextLine();
+						
+						//Si el programador existe en la base de datos, se procede a calcular el aumento de salario con el método AumentarSalario	
+						if(comprobarExisteProgramador(dni,ProgramadoresArray)) {
+					
+							System.out.println("Diga el salario actual de un programador: "); 
+							salario=sc.nextDouble();
+							System.out.println("Diga cuanto quiere aumentar el salario de un programador: ");
+							PorcentajeAumento=sc.nextDouble();
+				
+							Programador pr=new Programador(salario, PorcentajeAumento);
+							pr.AumentarSalario(salario, PorcentajeAumento);	
+							
+						}else {
+					System.out.println("El programador no se encuentra en la base de datos y no se puede proceder al aumento de salario");
+						}
+						
+					break;
 						
 				case 4: System.out.println("Salir");
-				break;
+					break;
 				
-			default:  System.out.println("Opción no válida");
-				
+			default:  System.out.println("Opción no válida");	
 			}
 		}while (opcion!=4);
 
@@ -73,7 +86,7 @@ public class Principal {
 			boolean existeprogramador=false;
 			for(Programador p2: ProgramadoresArray) {
 		    	if(p2.getDni().equals(dni)) {
-					System.out.println("No se puede dar de alta. El programador ya está en la base de datos");
+					System.out.println("El programador ya se encuentra en la base de datos");
 					existeprogramador=true;
 					break;
 				}
@@ -87,25 +100,24 @@ public class Principal {
 			int edad;
 			boolean casado;
 			double salario;
-			//String apellidos;
+			
 			
 			Programador p1;
 			
 				System.out.println("Dime el nombre: ");
-				nombre=sc.next();
-				System.out.println("Dime la edad (entre 18 y 45) : ");
+				nombre=sc.nextLine();
+				do {
+				System.out.println("Dime la edad (debe estar entre 18 y 45) : ");
 				edad=sc.nextInt();
+				}while(edad<18 || edad>45);
 				System.out.println("Dime si está casado indicando true o false: ");
 				casado=sc.nextBoolean();
 				System.out.println("Dime el salario: ");
 				salario=sc.nextDouble();
 				
-				//System.out.println("Dime los apellidos: ");
-				//apellidos=sc.nextLine();
-				//sc.nextLine();
 				p1=new Programador(nombre, dni, edad, casado, salario);
 				ProgramadoresArray.add(p1);
-				System.out.println(p1.toString()+"se ha dado de alta");
+				System.out.println(p1.toString()+ " se ha dado de alta");
 			
 		}
 		

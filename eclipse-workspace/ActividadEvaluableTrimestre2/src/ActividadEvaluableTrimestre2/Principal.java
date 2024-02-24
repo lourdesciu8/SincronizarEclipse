@@ -21,7 +21,7 @@ public class Principal {
 		
 		//Se crea 1 arraylist para guardar los datos que se vayan generando de Programador.
 		ArrayList<Programador>ProgramadoresArray=new ArrayList<Programador>();
-		
+		 
 
 	    do {
 	    	mostrarMenu();
@@ -43,25 +43,12 @@ public class Principal {
 					break;
 					
 				case 3: System.out.println("Dime dni del programador: ");
-						dni=sc.next();
+						dni = sc.next();
 						sc.nextLine();
 						
-						//Si el programador existe en la base de datos, se procede a calcular el aumento de salario con el método AumentarSalario	
-						if(comprobarExisteProgramador(dni,ProgramadoresArray)) {
-					
-							System.out.println("Diga el salario actual de un programador: "); 
-							salario=sc.nextDouble();
-							System.out.println("Diga cuanto quiere aumentar el salario de un programador: ");
-							PorcentajeAumento=sc.nextDouble();
-				
-							Programador pr=new Programador(salario, PorcentajeAumento);
-							pr.AumentarSalario(salario, PorcentajeAumento);	
-							
-						}else {
-					System.out.println("El programador no se encuentra en la base de datos y no se puede proceder al aumento de salario");
-						}
+						aumentarSalarioProgramador(dni,ProgramadoresArray,sc);
 						
-					break;
+					break;	
 						
 				case 4: System.out.println("Salir");
 					break;
@@ -104,7 +91,7 @@ public class Principal {
 			
 			Programador p1;
 			
-				System.out.println("Dime el nombre: ");
+				System.out.println("Dime el nombre y apellido: ");
 				nombre=sc.nextLine();
 				do {
 				System.out.println("Dime la edad (debe estar entre 18 y 45) : ");
@@ -134,6 +121,30 @@ public class Principal {
 		    }
 	    }
 	}
+		
+		public static void aumentarSalarioProgramador (String dni,ArrayList<Programador>ProgramadoresArray,Scanner sc) {
+			double PorcentajeAumento;
+			
+			//Si el programador existe en la base de datos, se procede a calcular el aumento de salario con el método AumentarSalario
+			if (comprobarExisteProgramador(dni, ProgramadoresArray)) {
+	        System.out.println("Diga cuanto quiere aumentar el salario del programador: ");
+	        PorcentajeAumento = sc.nextDouble();
+	        
+	        boolean encontrado = false;
+	        for (int i = 0; i < ProgramadoresArray.size(); i++) {
+	            Programador p = ProgramadoresArray.get(i);
+	            if (p.getDni().equals(dni)) {
+	                p.AumentarSalario(p.getSalario(), PorcentajeAumento);
+	                encontrado = true;
+	                break;
+	            }
+	        }
+	    //if encontrado=false;   
+	    }else {
+	        System.out.println("El programador no se encuentra en la base de datos y no se puede proceder al aumento de salario");
+	    }
+			
+		}
 		
 
 }

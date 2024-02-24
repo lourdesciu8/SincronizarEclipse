@@ -28,7 +28,7 @@ public class Empleado {
 
 	
 	public Empleado(double salario, double PorcentajeAumento) {
-		this.salario = salario;
+		this.salario=salario;
 		this.PorcentajeAumento = PorcentajeAumento;
 	}
 

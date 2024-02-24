@@ -68,11 +68,4 @@ public class Programador extends Empleado {
 				+" " +"y con un salario de" +" "+salario + " euros" ;
 	}
 	
-	//Método que permita aumentar el salario en un porcentaje 
-		public void AumentarSalario(double salario, double PorcentajeAumento) {
-	            double aumento = salario * (PorcentajeAumento / 100);
-	            salario =salario+ aumento;
-	            System.out.println("El salario del programador ha sido aumentado en un " + PorcentajeAumento + "%. Por lo tanto,"
-	            		+ " el nuevo salario es igual a " + salario +" " +"euros");
-	    }
 }

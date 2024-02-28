@@ -33,7 +33,9 @@
     <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Programador"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Electrodomestico"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Lavadora"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Television"/>
+    <fullyQualifiedTypeName name="AlquilerVehiculos.Vehiculo"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="AlquilerVehiculos.Coche"/>
 </qualifiedTypeNameHistroy>

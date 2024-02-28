@@ -10,18 +10,17 @@ import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
 public class TestEjercicio3{
-	private int numeroCaballos;
+
     private int numeroCarreras;
-    private String nombreHipodromo;
-    private int costoCompetencia = 50; 
     private int premioEconomico; 
     private int TotalPremios;
     
 	
-public TestEjercicio3(int numeroCarreras, int premioEconomico) {
+public TestEjercicio3(int numeroCarreras, int premioEconomico, int TotalPremios) {
 		
 		this.numeroCarreras = numeroCarreras;
 		this.premioEconomico = premioEconomico;
+		this.TotalPremios=TotalPremios;
 	}
 
 
@@ -39,7 +38,7 @@ public static Collection<Object[]> datos() {
 public void Test() {
 	
 	Ejercicio3 objeto=new Ejercicio3(numeroCarreras, premioEconomico);
-	int costoTotal=objeto.calcularTotalPremios(numeroCarreras, premioEconomico);
+	int costoTotal=objeto.calcularTotalPremios();
 	assertEquals(TotalPremios, costoTotal);
 	
 }

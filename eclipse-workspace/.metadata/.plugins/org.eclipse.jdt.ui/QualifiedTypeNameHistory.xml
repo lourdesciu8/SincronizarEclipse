@@ -38,4 +38,6 @@
     <fullyQualifiedTypeName name="AlquilerVehiculos.Vehiculo"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="AlquilerVehiculos.Coche"/>
+    <fullyQualifiedTypeName name="ejemploMetodos.ValidadorDNI"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
 </qualifiedTypeNameHistroy>

@@ -1,4 +1,4 @@
-package ejemploMetodos;
+package Tablets;
 
 import java.util.Scanner;
 

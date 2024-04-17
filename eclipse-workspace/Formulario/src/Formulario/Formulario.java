@@ -3,7 +3,10 @@ package Formulario;
 import java.util.Scanner;
 
 public class Formulario {
-
+	
+	//Para que estuviera el ejercicio OK había que crear una clase usuario para trabajar con sus atributos.
+	//Constructores si no dice nada como mínimo uno vacío y otro con todo.
+	
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nombre = "";
@@ -11,6 +14,9 @@ public class Formulario {
         String dni = "";
         String email = "";
 
+        //Había que poner a los atributos protected delante
+        
+        
         int opcion;
         do {
             mostrarMenu();
@@ -36,14 +42,14 @@ public class Formulario {
                     break;
                 case 5:
                     if (datosCompletos(nombre, apellido, dni, email)) {
-                        System.out.println("Datos completados");
+                        System.out.println("Finalizado. Datos completados");
                     } else {
                         System.out.println("Faltan datos por rellenar.");
-                        opcion = 0; // Volver al menú
+                        mostrarMenu();
                     }
                     break;
                 default:
-                    System.out.println("Opción no válida");
+                    System.out.println("Opción no válida, vuelva a intentarlo");
             }
         } while (opcion != 5);
     }

@@ -1,19 +1,23 @@
 package FigurasGeometricas;
 
-public class Triangulo {
-String nombre;
-double aLongitud, bLongitud, cLongitud;
+public class Triangulo extends Figura2D {
+
+//Atributos.
+protected double aLongitud, bLongitud, cLongitud;
 
 //Constructor con parámetros
 public Triangulo(String nombre, double aLongitud, double bLongitud, double cLongitud) {
-	this.nombre = nombre;
+	super(nombre);
 	this.aLongitud = aLongitud;
 	this.bLongitud = bLongitud;
 	this.cLongitud = cLongitud;
 }
+
+//Getters y setters
 public String getNombre() {
 	return nombre;
 }
+
 public void setNombre(String nombre) {
 	this.nombre = nombre;
 }
@@ -44,6 +48,13 @@ public double calcularPerimetro() {
 public String toString() {
     return "Triángulo nombre=" + nombre + ", lado1=" + aLongitud + ", lado2=" + bLongitud + ", lado3=" + cLongitud + "";
 }
-	
 
+public boolean equals(Triangulo t) {
+	boolean iguales=false;
+	if(t.getNombre().equals(nombre) && (t.getaLongitud()==aLongitud) && (t.getbLongitud()==bLongitud) && (t.getcLongitud()==cLongitud))
+	
+		iguales=true;
+	
+	return iguales;
+	}
 }

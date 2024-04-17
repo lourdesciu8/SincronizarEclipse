@@ -1,12 +1,15 @@
 package FigurasGeometricas;
 
-public class Circulo {
-String nombre;
-double radio;
+import java.net.NoRouteToHostException;
+
+public class Circulo extends Figura2D {
+
+//Atributo
+protected double radio;
 
 //Constructor con parámetros
 public Circulo(String nombre, double radio) {
-	this.nombre = nombre;
+	super(nombre);
 	this.radio = radio;
 }
 
@@ -36,4 +39,13 @@ public String toString() {
     return "Círculo nombre=" + nombre + ", radio=" + radio + "";
 }
 
+public boolean equals(Circulo c) {
+	boolean iguales=false;
+	if(c.getNombre().equals(nombre) && (c.getRadio()==radio)){
+	
+		//radio al ser de tipo double y no String como nombre, no se puede utilizar equals para la comparación sino ==
+		iguales=true;
+		}
+	return iguales;
+	}
 }

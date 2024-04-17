@@ -25,7 +25,6 @@
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.nio.channels.NonReadableChannelException"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
     <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Empleado"/>
     <fullyQualifiedTypeName name="javax.security.auth.x500.X500Principal"/>
@@ -37,8 +36,23 @@
     <fullyQualifiedTypeName name="AlquilerVehiculos.Vehiculo"/>
     <fullyQualifiedTypeName name="AlquilerVehiculos.Coche"/>
     <fullyQualifiedTypeName name="ejemploMetodos.ValidadorDNI"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="FigurasGeometricas.FiguraGeometrica"/>
+    <fullyQualifiedTypeName name="FigurasGeometricas.Figura2D"/>
+    <fullyQualifiedTypeName name="FigurasGeometricas.Triangulo"/>
+    <fullyQualifiedTypeName name="FigurasGeometricas.Rectangulo"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ActividadEvaluableTrimestre3.GestionHotel"/>
+    <fullyQualifiedTypeName name="ActividadEvaluableTrimestre3.Cliente"/>
+    <fullyQualifiedTypeName name="Excepciones.Ejercicio2"/>
+    <fullyQualifiedTypeName name="FigurasGeometricas.Circulo"/>
+    <fullyQualifiedTypeName name="java.net.NoRouteToHostException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="FormularioOK.usuario"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction"/>
+    <fullyQualifiedTypeName name="java.awt.desktop.AboutHandler"/>
 </qualifiedTypeNameHistroy>

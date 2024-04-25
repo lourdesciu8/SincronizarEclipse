@@ -67,29 +67,33 @@ public class Principal {
 		      }
 		      
 		      public static void RealizarReserva(Scanner sc, GestionHotel hotel) {
-		    	  System.out.println("Realizar reserva:");
-                  System.out.print("Ingrese su nombre: ");
-                  String nombre = sc.nextLine();
-                  System.out.print("Ingrese su email: ");
-                  String email = sc.nextLine();
-                  System.out.print("Ingrese su contraseña: ");
-                  String password = sc.nextLine();
-                  Cliente nuevoCliente = new Cliente(nombre, email, password);
+		    	    System.out.println("Realizar reserva:");
+		    	    System.out.print("Ingrese su nombre: ");
+		    	    String nombre = sc.nextLine();
+		    	    System.out.print("Ingrese su email: ");
+		    	    String email = sc.nextLine();
+		    	    System.out.print("Ingrese su contraseña: ");
+		    	    String password = sc.nextLine();
+		    	    Cliente nuevoCliente = new Cliente(nombre, email, password);
 
-                  System.out.println("Buscar habitación:");
-                  System.out.print("Ingrese el número de habitación: ");
-                  int numeroHabitacion = sc.nextInt();
-                  Habitacion habitacionSeleccionada = hotel.buscarHabitacion(numeroHabitacion);
-                  if (habitacionSeleccionada != null) {
-                      
-                  	//Verificar el nombre del cliente
-                  	System.out.println("Cliente: " + nuevoCliente.getNombre()); 
-                      hotel.reservarHabitacion(nuevoCliente, habitacionSeleccionada, new Date());
-                      System.out.println("Reserva realizada con éxito.");
-                  } else {
-                      System.out.println("La habitación seleccionada no está disponible.");
-                  }
-		      }
+		    	    try {
+		    	        System.out.println("Buscar habitación:");
+		    	        System.out.print("Ingrese el número de habitación: ");
+		    	        int numeroHabitacion = Integer.parseInt(sc.nextLine()); // Modificación para capturar NumberFormatException
+		    	        Habitacion habitacionSeleccionada = hotel.buscarHabitacion(numeroHabitacion);
+		    	        if (habitacionSeleccionada != null) {
+		    	            // Verificar el nombre del cliente
+		    	            System.out.println("Cliente: " + nuevoCliente.getNombre());
+		    	            hotel.reservarHabitacion(nuevoCliente, habitacionSeleccionada, new Date());
+		    	            System.out.println("Reserva realizada con éxito.");
+		    	        } else {
+		    	            System.out.println("La habitación seleccionada no está disponible.");
+		    	        }
+		    	    } catch (NumberFormatException e) {
+		    	        System.out.println("Error: el número de habitación debe ser un valor numérico.");
+		    	    }
+		    	}
+
 		      
 		      public static void ReservasRealizadas(GestionHotel hotel) {
                   hotel.verReservas();

@@ -8,36 +8,36 @@ public class Cliente extends Usuario{
 	    protected String password;
 	    
 	//Constructor
-	public Cliente(String nombre, String email, String password) {
+	    protected Cliente(String nombre, String email, String password) {
 		super(nombre, email, password);
 		this.nombre = nombre;
         this.email = email;
         this.password = password; 
-	}
+	    }
 	
 	//Getters y setters 
-	public String getNombre() {
+	    protected String getNombre() {
 		return nombre;
-	}
+	    }
 
-	public void setNombre(String nombre) {
+	    protected void setNombre(String nombre) {
 		this.nombre = nombre;
-	}
+	    }
 
-	public String getEmail() {
+	    protected String getEmail() {
 		return email;
-	}
+	    }
 
-	public void setEmail(String email) {
+	    protected void setEmail(String email) {
 		this.email = email;
-	}
+	    }
 
-	public String getPassword() {
+	    protected String getPassword() {
 		return password;
-	}
+	    }
 
-	public void setPassword(String password) {
+	    protected void setPassword(String password) {
 		this.password = password;
-	}
+	    }
 
 }

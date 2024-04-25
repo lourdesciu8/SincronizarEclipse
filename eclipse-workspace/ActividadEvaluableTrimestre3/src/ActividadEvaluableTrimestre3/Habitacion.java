@@ -1,6 +1,7 @@
 package ActividadEvaluableTrimestre3;
 
 public class Habitacion {
+	//Poner clase como abstracta?
 	
 	//Atributos
 	protected int numero;
@@ -8,7 +9,7 @@ public class Habitacion {
     protected double precioNoche;
     
     //Constructor
-    public Habitacion(int numero, String tipo, double precioNoche) {
+    protected Habitacion(int numero, String tipo, double precioNoche) {
         this.numero = numero;
         this.tipo = tipo;
         this.precioNoche = precioNoche;
@@ -16,27 +17,27 @@ public class Habitacion {
 
     
    //Getters y Setters
-	public int getNumero() {
+    protected int getNumero() {
 		return numero;
 	}
 
-	public void setNumero(int numero) {
+    protected void setNumero(int numero) {
 		this.numero = numero;
 	}
 
-	public String getTipo() {
+    protected String getTipo() {
 		return tipo;
 	}
 
-	public void setTipo(String tipo) {
+    protected void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
 
-	public double getPrecioNoche() {
+    protected double getPrecioNoche() {
 		return precioNoche;
 	}
 
-	public void setPrecioNoche(double precioNoche) {
+    protected void setPrecioNoche(double precioNoche) {
 		this.precioNoche = precioNoche;
 	}
     

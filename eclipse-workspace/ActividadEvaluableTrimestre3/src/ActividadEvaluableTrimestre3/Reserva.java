@@ -11,7 +11,7 @@ public class Reserva {
 
     
     //Constructor
-    public Reserva(Cliente cliente, Habitacion habitacion, Date fecha) {
+    protected Reserva(Cliente cliente, Habitacion habitacion, Date fecha) {
         this.cliente = cliente;
         this.habitacion = habitacion;
         this.fecha = fecha;
@@ -20,32 +20,32 @@ public class Reserva {
 
    //Getters y Setters
     
-	public Cliente getCliente() {
+    protected Cliente getCliente() {
 		return cliente;
 	}
 
 
-	public void setCliente(Cliente cliente) {
+    protected void setCliente(Cliente cliente) {
 		this.cliente = cliente;
 	}
 
 
-	public Habitacion getHabitacion() {
+    protected Habitacion getHabitacion() {
 		return habitacion;
 	}
 
 
-	public void setHabitacion(Habitacion habitacion) {
+    protected void setHabitacion(Habitacion habitacion) {
 		this.habitacion = habitacion;
 	}
 
 
-	public Date getFecha() {
+    protected Date getFecha() {
 		return fecha;
 	}
 
 
-	public void setFecha(Date fecha) {
+    protected void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
     

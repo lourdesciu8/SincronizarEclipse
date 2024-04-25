@@ -38,8 +38,11 @@ public static Collection<Object[]> datos() {
 public void Test() {
 	
 	Ejercicio2 objeto1=new Ejercicio2(numeroAlumnos, numeroAsignaturas, costoPorAsignatura);
-	double costoTotal=objeto1.calcularTotalCobrado(numeroAlumnos, numeroAsignaturas, costoPorAsignatura);
+	double costoTotal=objeto1.calcularTotalCobrado(numeroAlumnos, numeroAsignaturas, costoPorAsignatura); 
 	assertEquals(totalCobrado,costoTotal);
+	
+	//assertEquals(esperado, real);
+	//assertEquals(Valor esperado según las variables pasadas entre paréntesis al crear el objeto,Resultado real de aplicar el método calcularTotalCobrado );
 	
 }
 

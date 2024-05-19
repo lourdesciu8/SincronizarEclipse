@@ -15,7 +15,7 @@ public class Formulario {
 			 mostrarMenu();
 	            opcion = sc.nextInt();       
 	            sc.nextLine(); 
-	            
+	           
 	            switch (opcion) {
 	                case 1:
 	                	System.out.print("Ingrese el nombre:");

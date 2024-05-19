@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="java.lang.LayerInstantiationException"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.lang.EnumConstantNotPresentException"/>
-    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
-    <fullyQualifiedTypeName name="javax.print.attribute.standard.Media"/>
-    <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
-    <fullyQualifiedTypeName name="Array_DNI"/>
     <fullyQualifiedTypeName name="int"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="ejemploMetodos.Cuenta"/>
@@ -28,7 +19,6 @@
     <fullyQualifiedTypeName name="java.time.Year"/>
     <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Empleado"/>
     <fullyQualifiedTypeName name="javax.security.auth.x500.X500Principal"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Programador"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Electrodomestico"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Lavadora"/>
@@ -40,7 +30,6 @@
     <fullyQualifiedTypeName name="FigurasGeometricas.Figura2D"/>
     <fullyQualifiedTypeName name="FigurasGeometricas.Triangulo"/>
     <fullyQualifiedTypeName name="FigurasGeometricas.Rectangulo"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
@@ -50,12 +39,25 @@
     <fullyQualifiedTypeName name="Excepciones.Ejercicio2"/>
     <fullyQualifiedTypeName name="FigurasGeometricas.Circulo"/>
     <fullyQualifiedTypeName name="java.net.NoRouteToHostException"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="FormularioOK.usuario"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction"/>
     <fullyQualifiedTypeName name="java.awt.desktop.AboutHandler"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="java.util.spi.AbstractResourceBundleProvider"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.CDATASection"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
+    <fullyQualifiedTypeName name="ejercicio1.Usuario"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="ejercicio2.Tablet"/>
+    <fullyQualifiedTypeName name="ejercicio3.Pelicula"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="ejercicio1.UltimoDigitoNoLetraException"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 </qualifiedTypeNameHistroy>

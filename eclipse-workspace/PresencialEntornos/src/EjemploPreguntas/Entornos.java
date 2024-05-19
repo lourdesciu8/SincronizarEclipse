@@ -1,6 +1,6 @@
 package EjemploPreguntas;
 
-public class Ejemplo {
+public class Entornos {
 
 	public static void main(String[] args) {
 		// T1 Test Repaso

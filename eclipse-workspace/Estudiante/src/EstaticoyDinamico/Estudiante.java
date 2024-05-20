@@ -32,14 +32,19 @@ public class Estudiante {
         return (nota1 + nota2 + nota3)/3;
     }
     
+   
+    //Método para leer fichero
     public static ArrayList<Estudiante> leerEstudiantes(String nombreFichero) throws IOException {
         ArrayList<Estudiante> estudiantes = new ArrayList<>();
         
-        BufferedReader br = new BufferedReader(new FileReader(nombreFichero));
+        FileReader fr=new FileReader(nombreFichero);
+		BufferedReader br = new BufferedReader(fr);
+        //Es lo mismo:
+		//BufferedReader br = new BufferedReader(new FileReader(nombreFichero));
         
         String linea;
         while ((linea = br.readLine()) != null) {
-            String[] datos = linea.split(",");
+            String datos [] = linea.split(",");
             if (datos.length != 5) {
                 throw new IOException("Formato de línea incorrecto en el fichero");
             }
@@ -58,7 +63,11 @@ public class Estudiante {
                 throw new NumberFormatException("Error de formato en el fichero");
             }
             
-            estudiantes.add(new Estudiante(nombre, edad, nota1, nota2, nota3));
+            
+            Estudiante e1=new Estudiante(nombre, edad, nota1, nota2, nota3);
+            estudiantes.add(e1);
+            //Es lo mismo:
+            //estudiantes.add(new Estudiante(nombre, edad, nota1, nota2, nota3));
         }
         
         br.close();
@@ -79,10 +88,11 @@ public class Estudiante {
             for (int i = 0; i<estudiantes.size();i++) {
                 System.out.println("Nombre: " + estudiantes.get(i).getNombre() + ", Edad: " + estudiantes.get(i).getEdad() + ", Nota Media: " + estudiantes.get(i).getNotaMedia());
             }
-        } catch (IOException e) {
-            System.err.println("Error al leer el fichero: " + e.getMessage());
-        } catch (NumberFormatException e) {
+        }catch (NumberFormatException e) {
             System.err.println("Error de formato en el fichero: " + e.getMessage());
         }
+        catch (IOException e) {
+            System.err.println("Error al leer el fichero: " + e.getMessage());
+        } 
     }
 }

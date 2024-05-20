@@ -1,5 +1,7 @@
 package Excepciones;
 
+import java.io.IOException;
+
 public class Ejercicio2Main {
 
 	public static void main(String[] args) {
@@ -18,7 +20,5 @@ public class Ejercicio2Main {
             System.out.println("Error: " + e.getMessage());
         }
     }
-
-
 
 }

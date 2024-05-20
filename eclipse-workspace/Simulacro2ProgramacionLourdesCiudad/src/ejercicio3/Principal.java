@@ -16,7 +16,7 @@ public class Principal {
 		peliculasArray.add(p1);
 		peliculasArray.add(p2);
 		
-		//Se recorre el ArrayList con un foreach
+		//Se recorre el ArrayList con un foreach para mostrar los datos de las películas
         for (Pelicula item : peliculasArray) {
             System.out.println("Película: " + item.getTitulo() + ", Director: " + item.getDirector() + ", Puntuación Media: " + item.PuntuacionMedia());
         }
@@ -26,7 +26,8 @@ public class Principal {
         System.out.println(p2.toString());
         */
         
-        // Leer películas desde el fichero
+        //Se leen los datos desde el propio fichero txt
+        System.out.println("\nLeer películas desde el fichero: ");
         try {
             ArrayList<Pelicula> variable = Pelicula.leerPeliculas("peliculas.txt");
             for (Pelicula p : variable) {

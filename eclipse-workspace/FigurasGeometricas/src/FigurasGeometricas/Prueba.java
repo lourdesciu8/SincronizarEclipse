@@ -1,5 +1,6 @@
 package FigurasGeometricas;
 
+import java.awt.event.ItemEvent;
 import java.util.ArrayList;
 
 public class Prueba {
@@ -22,6 +23,8 @@ public class Prueba {
 		for (Figura2D item : array) {
 			System.out.println("Nombre: " + item.getNombre() + ", Perímetro: " + item.calcularPerimetro());
 			
+			//También podría haberse hecho con:
+			//System.out.println(item.toString() +" " +"Perímetro= " +item.calcularPerimetro());
 		}
 		
 	}

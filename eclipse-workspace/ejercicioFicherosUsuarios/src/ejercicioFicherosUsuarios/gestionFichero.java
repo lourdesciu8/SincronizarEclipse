@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class gestionFichero {
-	private final int VALOR = 5;
+	
 	protected void insertarUsuario(String usuario, String contrasena, String archivo) {
         try {
-            // Crear un FileWriter en modo append (para agregar al final del archivo)
+            // Crear un FileWriter en modo append (para agregar lo que se escriba al final del archivo, y no se sobreescriba, para eso es el true.
             FileWriter fw = new FileWriter(archivo, true);
             // Crear un PrintWriter para escribir en el archivo
             PrintWriter pw = new PrintWriter(fw);
@@ -35,7 +35,7 @@ public class gestionFichero {
         try {
             FileReader fr = new FileReader(archivo);
             BufferedReader br = new BufferedReader(fr);
-            int numero = VALOR;
+            
             String linea;
             while ((linea = br.readLine()) != null) {
                 // Dividir la línea en usuario y contraseña
@@ -49,8 +49,8 @@ public class gestionFichero {
                         br.close();
                         fr.close();
                         return true; // Usuario y contraseña encontrados
-                    } else return false;
-                } return false;
+                    } 
+                } 
             }
 
             br.close();

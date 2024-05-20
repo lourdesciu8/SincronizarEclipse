@@ -1,6 +1,5 @@
 package FigurasGeometricas;
 
-import java.net.NoRouteToHostException;
 
 public class Circulo extends Figura2D {
 
@@ -32,7 +31,7 @@ public void setRadio(double radio) {
 
 //Calculamos perímetro
 public double calcularPerimetro() {
-    return 2 * Math.PI * radio;
+    return Math.round(2 * Math.PI * radio);
 }
 
 public String toString() {

@@ -1,15 +1,14 @@
 package Tarea2Trimestre;
 
 public class Ejercicio3 {
-    private int numeroCaballos;
+    //Variables
+	private int numeroCaballos;
     private int numeroCarreras;
     private String nombreHipodromo;
     private int costoCompetencia = 50; 
     private int premioEconomico; 
 
-    // Constructor
-    
-
+    // Constructores
     public Ejercicio3(int numeroCarreras, int premioEconomico) {
 		this.numeroCarreras = numeroCarreras;
 		this.premioEconomico = premioEconomico;

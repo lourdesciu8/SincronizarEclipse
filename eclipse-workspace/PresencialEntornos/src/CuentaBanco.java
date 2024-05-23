@@ -1,8 +1,10 @@
 public class CuentaBanco {
 
+	//Variables
 	private int saldo;
 	private String password;
 	
+	//Constructor
 	public CuentaBanco(int saldoInicial, String password) {
 	
 		this.saldo=saldoInicial;

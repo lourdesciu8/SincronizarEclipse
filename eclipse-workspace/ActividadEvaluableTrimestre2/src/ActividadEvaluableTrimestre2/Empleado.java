@@ -10,7 +10,6 @@ public class Empleado {
 	protected boolean casado;
 	protected double salario;
 	protected double PorcentajeAumento;
-	Scanner sc=new Scanner(System.in);
 	
 	//Constructores
 	public Empleado() {

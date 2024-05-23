@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="concesionario.vehiculos"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
-    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
-    <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
-    <fullyQualifiedTypeName name="org.junit.validator.PublicClassValidator"/>
-    <fullyQualifiedTypeName name="Tarea2Trimestre.Tarea2"/>
-    <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="java.time.Period"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.nio.channels.NonReadableChannelException"/>
-    <fullyQualifiedTypeName name="java.time.Year"/>
     <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Empleado"/>
     <fullyQualifiedTypeName name="javax.security.auth.x500.X500Principal"/>
     <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Programador"/>
@@ -46,18 +34,30 @@
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="ejercicio2.Tablet"/>
     <fullyQualifiedTypeName name="ejercicio3.Pelicula"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="ejercicio1.UltimoDigitoNoLetraException"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="EstaticoyDinamico.Estudiante"/>
-    <fullyQualifiedTypeName name="java.awt.event.ItemEvent"/>
     <fullyQualifiedTypeName name="java.lang.Error"/>
     <fullyQualifiedTypeName name="ExcepcionTelefono.valorIncorrecto"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.ResourceBundle.Control"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="EjerciciosSimulacro.usuario"/>
+    <fullyQualifiedTypeName name="EjerciciosSimulacro.LongitudDNINoValidaException"/>
+    <fullyQualifiedTypeName name="EjerciciosSimulacro.UltimoDigitoNoLetraException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Ejercicio2Simulacro.Producto"/>
+    <fullyQualifiedTypeName name="Ejercicio2Simulacro.Tablet"/>
+    <fullyQualifiedTypeName name="Ejercicio2Simulacro.TelefonoMovil"/>
+    <fullyQualifiedTypeName name="java.awt.event.ItemEvent"/>
+    <fullyQualifiedTypeName name="FormularioCompleto.EmailIncorrectoException"/>
+    <fullyQualifiedTypeName name="FormularioCompleto.UltimoDigitoNoLetraException"/>
+    <fullyQualifiedTypeName name="FormularioCompleto.NumeracionContieneLetrasException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
+    <fullyQualifiedTypeName name="FormularioCompleto.Usuario"/>
 </qualifiedTypeNameHistroy>

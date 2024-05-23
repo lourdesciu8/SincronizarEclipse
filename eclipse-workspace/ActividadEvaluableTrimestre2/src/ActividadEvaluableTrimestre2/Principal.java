@@ -87,8 +87,7 @@ public class Principal {
 			int edad;
 			boolean casado;
 			double salario;
-			
-			
+
 			Programador p1;
 			
 				System.out.println("Dime el nombre y apellido: ");
@@ -129,7 +128,7 @@ public class Principal {
 			if (comprobarExisteProgramador(dni, ProgramadoresArray)) {
 	        System.out.println("Diga cuanto quiere aumentar el salario del programador: ");
 	        PorcentajeAumento = sc.nextDouble();
-	        
+	      
 	        boolean encontrado = false;
 	        for (int i = 0; i < ProgramadoresArray.size(); i++) {
 	            Programador p = ProgramadoresArray.get(i);
@@ -146,5 +145,4 @@ public class Principal {
 			
 		}
 		
-
 }

@@ -7,12 +7,11 @@ public class ejercicioVentaDeTabletsMetodos {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		String codigo,DNI;
-		final int filas=50;
+		final int FILAS=50;
 		final int columnasTablets=6;
 		final int columnasClientes=4;
-		boolean tablet_exists=false, cliente_exists=false;
-		String tablets [][]= new String [filas][columnasTablets];
-		String clientes [][]= new String [filas][columnasClientes];
+		String tablets [][]= new String [FILAS][columnasTablets];
+		String clientes [][]= new String [FILAS][columnasClientes];
 		int opcion;
 		
 		mostrarMenu();
@@ -136,7 +135,7 @@ public class ejercicioVentaDeTabletsMetodos {
 	public static void hacerVenta(String dni, String codigo, String clientes[][], String tablets[][]) {
 		for(int i=0;i<clientes.length;i++) {
 			if(clientes[i][0] !=null && clientes[i][0].equals(dni)) {
-				//Buscamo que la tablet existe y no se ha vendido a ningún cliente.
+				//Buscamos que la tablet existe y no se ha vendido a ningún cliente.
 				for(int j=0;j<tablets.length;j++) {
 					if(tablets[j][0]!=null && tablets[j][0].equals(codigo) && tablets[j][5]==null) {
 						tablets[j][5]=dni;

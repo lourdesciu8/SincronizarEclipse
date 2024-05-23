@@ -10,7 +10,6 @@ public class Tarea2Trimestre {
 	private String nombre, dni;
 	private int dorsal, puntuacionEjercicio, dificultad;
 	private LocalDate fechaNacimiento;
-	Scanner sc= new Scanner (System.in);
 	
 	//Constructores
 	public Tarea2Trimestre(int puntuacionEjercicio, int dificultad) {

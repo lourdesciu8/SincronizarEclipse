@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Empleado"/>
-    <fullyQualifiedTypeName name="javax.security.auth.x500.X500Principal"/>
-    <fullyQualifiedTypeName name="ActividadEvaluableTrimestre2.Programador"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Electrodomestico"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Lavadora"/>
     <fullyQualifiedTypeName name="Electrodomesticos.Television"/>
@@ -37,7 +34,6 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="ejercicio1.UltimoDigitoNoLetraException"/>
-    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="EstaticoyDinamico.Estudiante"/>
     <fullyQualifiedTypeName name="java.lang.Error"/>
     <fullyQualifiedTypeName name="ExcepcionTelefono.valorIncorrecto"/>
@@ -57,7 +53,11 @@
     <fullyQualifiedTypeName name="FormularioCompleto.EmailIncorrectoException"/>
     <fullyQualifiedTypeName name="FormularioCompleto.UltimoDigitoNoLetraException"/>
     <fullyQualifiedTypeName name="FormularioCompleto.NumeracionContieneLetrasException"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
     <fullyQualifiedTypeName name="FormularioCompleto.Usuario"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="javax.security.auth.callback.TextOutputCallback"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
 </qualifiedTypeNameHistroy>

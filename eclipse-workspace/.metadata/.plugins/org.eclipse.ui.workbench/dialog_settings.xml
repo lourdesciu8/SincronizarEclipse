@@ -30,7 +30,7 @@
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.egit.ui.internal.clone.SmartImportGitWizard"/>
-		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
 		</list>
@@ -44,6 +44,14 @@
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="C:\Users\Raul\Desktop\FP\PROGRAMACIÓN\SIMULACRO MAYO LOURDES CIUDAD.zip"/>
 			<item value="C:\Users\Raul\Desktop\FP\PROGRAMACIÓN\Ciudad_Lourdes_Act.1 (Trimestre 3).zip"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Raul\Desktop"/>
 		</list>
 	</section>
 </section>

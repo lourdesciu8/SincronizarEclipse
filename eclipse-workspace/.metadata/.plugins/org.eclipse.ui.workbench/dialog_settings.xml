@@ -12,11 +12,11 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="ejercicioVentaDeTablets/run"/>
+			<item value="search.in.help"/>
 			<item value="org.eclipse.ui.window.preferences"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.debug.ui/org.eclipse.debug.internal.ui.quickaccess.RunQuickAccessComputer"/>
+			<item value="search.help"/>
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textEntries">
@@ -24,7 +24,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="table"/>
+			<item value="tema2"/>
 			<item value="preferences"/>
 		</list>
 	</section>
@@ -53,5 +53,7 @@
 		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="C:\Users\Raul\Desktop"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
 	</section>
 </section>

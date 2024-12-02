@@ -16,7 +16,7 @@ public class GalgoInterfaz implements Runnable {
 			try{
 				System.out.printf("El galgo %s ha comenzado a correr%n", nombre);
 				Thread.sleep(tiempoCarrera * 1000);//pausa la ejecucion del hilo. Milisegundos.
-				System.out.printf("El galgo %s ha terminado de alimentarse%n",nombre);
+				System.out.printf("El galgo %s ha terminado de correr%n",nombre);
 			} catch(InterruptedException e){
 				e.printStackTrace();
 			}

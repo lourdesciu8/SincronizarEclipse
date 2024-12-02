@@ -1,24 +1,30 @@
 import javax.swing.*;
 import java.awt.event.*;
+import java.awt.Font;
+import java.awt.Toolkit;
+import java.awt.Color;
 
 public class StudentWindow extends JFrame {
-    private JComboBox<String> moduleDropdown;
-    private JTable gradesTable;
-    private JButton logoutButton;
+    private JComboBox<String> ComboBox;
+    private JTable JTable;
+    private JButton CerrarSesionbtn;
 
     public StudentWindow() {
+    	getContentPane().setBackground(new Color(176, 224, 230));
+    	setIconImage(Toolkit.getDefaultToolkit().getImage(StudentWindow.class.getResource("/imagenes/logo.png")));
         setTitle("Vista Alumno");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(null);
+        getContentPane().setLayout(null);
 
         JLabel moduleLabel = new JLabel("Módulo:");
-        moduleLabel.setBounds(30, 30, 80, 25);
-        add(moduleLabel);
+        moduleLabel.setFont(new Font("Tahoma", Font.BOLD, 12));
+        moduleLabel.setBounds(69, 29, 68, 25);
+        getContentPane().add(moduleLabel);
 
-        moduleDropdown = new JComboBox<>(new String[]{"Desarrollo de Interfaces", "Acceso de Datos", "Programación"});
-        moduleDropdown.setBounds(120, 30, 150, 25);
-        add(moduleDropdown);
+        ComboBox = new JComboBox<>(new String[]{"Desarrollo de Interfaces", "Acceso de Datos", "Programación"});
+        ComboBox.setBounds(131, 30, 150, 25);
+        getContentPane().add(ComboBox);
 
         String[] columnNames = {"Asignatura", "Nota"};
         Object[][] data = {
@@ -26,16 +32,19 @@ public class StudentWindow extends JFrame {
             {"Acceso de Datos", "8.0"},
             {"Programación", "9.3"}
         };
-        gradesTable = new JTable(data, columnNames);
-        JScrollPane scrollPane = new JScrollPane(gradesTable);
-        scrollPane.setBounds(30, 80, 300, 100);
-        add(scrollPane);
 
-        logoutButton = new JButton("Cerrar Sesión");
-        logoutButton.setBounds(130, 200, 120, 25);
-        add(logoutButton);
+        CerrarSesionbtn = new JButton("Cerrar Sesión");
+        CerrarSesionbtn.setBounds(130, 200, 120, 25);
+        getContentPane().add(CerrarSesionbtn);
+        
+        JScrollPane JScrollPane = new JScrollPane();
+        JScrollPane.setBounds(36, 82, 315, 74);
+        getContentPane().add(JScrollPane);
+        JTable = new JTable(data, columnNames);
+        JTable.setFont(new Font("Tahoma", Font.PLAIN, 10));
+        JScrollPane.setViewportView(JTable);
 
-        logoutButton.addActionListener(new ActionListener() {
+        CerrarSesionbtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 new LoginWindow().setVisible(true);
                 dispose();

@@ -21,6 +21,12 @@ public class VentanaInicio extends JFrame {
     private JPanel contentPane;
     private JTextField textFieldUsuario;
     private JPasswordField passwordField;
+    private String nombreUsuario="lourdes";
+    private String password="uem";
+    private JButton btnLimpiar;
+    private JButton btnSalir;
+    private JButton btEntrar;
+    private JComboBox<String> comboBoxListaDesplegable;
 
     /**
      * Launch the application.
@@ -42,7 +48,7 @@ public class VentanaInicio extends JFrame {
      * Create the frame.
      */
     public VentanaInicio() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Raul\\Documents\\GitHub\\SincronizarEclipse\\eclipse-workspace\\ActividadEvaluable1DesarrolloInterfaces\\imagenes\\UE ICONO PEQUEÑO.jpg"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaInicio.class.getResource("/imagenes/UE ICONO PEQUEÑO.jpg")));
         setTitle("Ventana de inicio");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 644, 331);
@@ -77,7 +83,7 @@ public class VentanaInicio extends JFrame {
         passwordField.setBounds(156, 104, 129, 22);
         contentPane.add(passwordField);
 
-        JButton btnLimpiar = new JButton("LIMPIAR");
+        btnLimpiar = new JButton("LIMPIAR");
         btnLimpiar.setFont(new Font("Tahoma", Font.PLAIN, 13));
         btnLimpiar.setBounds(168, 213, 94, 25);
         contentPane.add(btnLimpiar);
@@ -90,7 +96,7 @@ public class VentanaInicio extends JFrame {
             }
         });
 
-        JButton btnSalir = new JButton("SALIR");
+        btnSalir = new JButton("SALIR");
         btnSalir.setFont(new Font("Tahoma", Font.PLAIN, 13));
         btnSalir.setBounds(444, 213, 88, 25);
         contentPane.add(btnSalir);
@@ -102,7 +108,7 @@ public class VentanaInicio extends JFrame {
             }
         });
 
-        JButton btEntrar = new JButton("ENTRAR");
+        btEntrar = new JButton("ENTRAR");
         btEntrar.setFont(new Font("Tahoma", Font.PLAIN, 13));
         btEntrar.setBounds(346, 213, 88, 25);
         contentPane.add(btEntrar);
@@ -111,26 +117,36 @@ public class VentanaInicio extends JFrame {
         btEntrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String usuario = textFieldUsuario.getText();
-                String contrasena = new String(passwordField.getPassword());
+                String contraseña = new String(passwordField.getPassword());
+                String cargo = comboBoxListaDesplegable.getSelectedItem().toString();
 
-                if (usuario.equals("lourdes") && contrasena.equals("uem")) {
-                    JOptionPane.showMessageDialog(null, "Bienvenido, " + usuario);
+                if (cargo.equals("Seleccione cargo")) {
+                    JOptionPane.showMessageDialog(null, "Debe seleccionar un cargo.");
+                } else if (usuario.equalsIgnoreCase(nombreUsuario) && contraseña.equalsIgnoreCase(password)) {
+                    if (cargo.equals("Estudiante")) {
+                        JOptionPane.showMessageDialog(null, "Bienvenid@, " + usuario + ". Cargo: Estudiante.");
+                    } else if (cargo.equals("Profesor")) {
+                        JOptionPane.showMessageDialog(null, "Bienvenid@, " + usuario + ". Cargo: Profesor.");
+                    }
                 } else {
                     JOptionPane.showMessageDialog(null, "Datos incorrectos");
                 }
             }
         });
 
-        JComboBox<String> comboBoxListaDesplegable = new JComboBox<>();
-        comboBoxListaDesplegable.setModel(new DefaultComboBoxModel<>(new String[] {"Estudiante", "Profesor"}));
-        comboBoxListaDesplegable.setToolTipText("Seleccione una opción");
+
+        //Desplegable para seleccionar el rol de Estudiante o Profesor
+        comboBoxListaDesplegable = new JComboBox<>();
+        comboBoxListaDesplegable.setModel(new DefaultComboBoxModel<>(new String[] {"Seleccione cargo", "Estudiante", "Profesor"}));
+        comboBoxListaDesplegable.setToolTipText("Seleccione cargo");
         comboBoxListaDesplegable.setBounds(156, 171, 129, 21);
         contentPane.add(comboBoxListaDesplegable);
 
         JLabel LogoUE = new JLabel("");
-        LogoUE.setIcon(new ImageIcon("C:\\Users\\Raul\\Documents\\GitHub\\SincronizarEclipse\\eclipse-workspace\\ActividadEvaluable1DesarrolloInterfaces\\imagenes\\descarga.png"));
+        LogoUE.setIcon(new ImageIcon(VentanaInicio.class.getResource("/imagenes/descarga.png")));
         LogoUE.setBounds(306, 59, 300, 95);
         contentPane.add(LogoUE);
     }
+	
 }
 

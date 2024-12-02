@@ -1,49 +1,98 @@
 import javax.swing.*;
 import java.awt.event.*;
+import java.awt.Toolkit;
+import java.awt.Color;
+import java.awt.Font;
 
 public class LoginWindow extends JFrame {
     private JTextField userField;
     private JPasswordField passwordField;
-    private JButton loginButton;
+    private JButton loginbtn, Limpiarbtn, Salirbtn;
+    private JButton logo;
 
     public LoginWindow() {
+    	getContentPane().setFont(new Font("Tahoma", Font.PLAIN, 10));
+    	getContentPane().setBackground(new Color(176, 224, 230));
+    	setIconImage(Toolkit.getDefaultToolkit().getImage(LoginWindow.class.getResource("/imagenes/logo.png")));
         setTitle("Login");
-        setSize(325, 202);
+        setSize(512, 274);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
-        
+
         JLabel userLabel = new JLabel("Usuario:");
+        userLabel.setFont(new Font("Tahoma", Font.BOLD, 14));
         userLabel.setBounds(30, 30, 80, 25);
         getContentPane().add(userLabel);
 
         userField = new JTextField();
-        userField.setBounds(120, 30, 150, 25);
+        userField.setBounds(129, 32, 179, 25);
         getContentPane().add(userField);
 
         JLabel passwordLabel = new JLabel("Contraseña:");
-        passwordLabel.setBounds(30, 70, 80, 25);
+        passwordLabel.setFont(new Font("Tahoma", Font.BOLD, 14));
+        passwordLabel.setBounds(30, 70, 89, 25);
         getContentPane().add(passwordLabel);
 
         passwordField = new JPasswordField();
-        passwordField.setBounds(120, 70, 150, 25);
+        passwordField.setBounds(129, 67, 179, 25);
         getContentPane().add(passwordField);
 
-        loginButton = new JButton("Iniciar Sesión");
-        loginButton.setBounds(100, 120, 120, 25);
-        getContentPane().add(loginButton);
+        // Botón de iniciar sesión
+        loginbtn = new JButton("Iniciar Sesión");
+        loginbtn.setFont(new Font("Tahoma", Font.BOLD, 12));
+        loginbtn.setBounds(94, 128, 120, 25);
+        getContentPane().add(loginbtn);
 
-        loginButton.addActionListener(new ActionListener() {
+        // Botón de limpiar campos
+        Limpiarbtn = new JButton("Limpiar");
+        Limpiarbtn.setFont(new Font("Tahoma", Font.BOLD, 12));
+        Limpiarbtn.setBounds(377, 128, 80, 25);
+        getContentPane().add(Limpiarbtn);
+
+        // Botón de salir
+        Salirbtn = new JButton("Salir");
+        Salirbtn.setFont(new Font("Tahoma", Font.BOLD, 12));
+        Salirbtn.setBounds(234, 128, 80, 25);
+        getContentPane().add(Salirbtn);
+        
+        logo = new JButton("");
+        logo.setIcon(new ImageIcon(LoginWindow.class.getResource("/imagenes/logo.png")));
+        logo.setBounds(356, 30, 113, 79);
+        getContentPane().add(logo);
+
+        // Acción para el botón "Iniciar Sesión"
+        loginbtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // Lógica de autenticación aquí
                 String user = userField.getText();
                 String password = new String(passwordField.getPassword());
 
-                if (user.equals("profesor")) {
-                    new TeacherWindow().setVisible(true);
-                } else {
+                // Validación para alumno
+                if (user.equalsIgnoreCase("alumno") && password.equals("uem")) {
                     new StudentWindow().setVisible(true);
+                    dispose();
                 }
-                dispose();
+                // Validación para profesor
+                else if (user.equalsIgnoreCase("profesor") && password.equals("uem")) {
+                    new TeacherWindow().setVisible(true);
+                    dispose();
+                } else {
+                    JOptionPane.showMessageDialog(null, "Usuario o contraseña incorrectos", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+        });
+
+        // Acción para el botón "Limpiar"
+        Limpiarbtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                userField.setText("");
+                passwordField.setText("");
+            }
+        });
+
+        // Acción para el botón "Salir"
+        Salirbtn.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.exit(EXIT_ON_CLOSE);
             }
         });
     }

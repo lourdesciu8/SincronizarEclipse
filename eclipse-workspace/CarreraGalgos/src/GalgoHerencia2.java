@@ -28,7 +28,7 @@ public class GalgoHerencia2 extends Thread {
 
         System.out.print("Introduce el número de galgos a correr: ");
         int numeroGalgos = sc.nextInt();
-        sc.nextLine(); // Limpiar el buffer
+        sc.nextLine(); 
 
         // Crear un array de galgos con el tamaño especificado por el usuario
         GalgoHerencia galgosArray [] = new GalgoHerencia[numeroGalgos];

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="FigurasGeometricas.Figura2D"/>
     <fullyQualifiedTypeName name="FigurasGeometricas.Triangulo"/>
     <fullyQualifiedTypeName name="FigurasGeometricas.Rectangulo"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -54,10 +53,11 @@
     <fullyQualifiedTypeName name="Ejercicio2.TelefonoMovil"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="GalgoHerencia"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="GalgoInterfaz"/>
     <fullyQualifiedTypeName name="NumImpares"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

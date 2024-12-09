@@ -9,6 +9,8 @@ public class LoginWindow extends JFrame {
     private JPasswordField passwordField;
     private JButton loginbtn, Limpiarbtn, Salirbtn;
     private JButton logo;
+    private JLabel labelCargo;
+	private JComboBox cbCargo;
 
     public LoginWindow() {
     	getContentPane().setFont(new Font("Tahoma", Font.PLAIN, 10));
@@ -40,25 +42,38 @@ public class LoginWindow extends JFrame {
         // Botón de iniciar sesión
         loginbtn = new JButton("Iniciar Sesión");
         loginbtn.setFont(new Font("Tahoma", Font.BOLD, 12));
-        loginbtn.setBounds(94, 128, 120, 25);
+        loginbtn.setBounds(50, 184, 120, 25);
         getContentPane().add(loginbtn);
 
         // Botón de limpiar campos
         Limpiarbtn = new JButton("Limpiar");
         Limpiarbtn.setFont(new Font("Tahoma", Font.BOLD, 12));
-        Limpiarbtn.setBounds(377, 128, 80, 25);
+        Limpiarbtn.setBounds(372, 184, 80, 25);
         getContentPane().add(Limpiarbtn);
 
         // Botón de salir
         Salirbtn = new JButton("Salir");
         Salirbtn.setFont(new Font("Tahoma", Font.BOLD, 12));
-        Salirbtn.setBounds(234, 128, 80, 25);
+        Salirbtn.setBounds(216, 184, 80, 25);
         getContentPane().add(Salirbtn);
         
         logo = new JButton("");
         logo.setIcon(new ImageIcon(LoginWindow.class.getResource("/imagenes/logo.png")));
         logo.setBounds(356, 30, 113, 79);
         getContentPane().add(logo);
+        
+        JComboBox cbCargo = new JComboBox();
+        cbCargo.setBounds(129, 124, 179, 21);
+        getContentPane().add(cbCargo);
+        
+        JLabel labelCargo = new JLabel("Cargo");
+        labelCargo.setFont(new Font("Tahoma", Font.BOLD, 14));
+        labelCargo.setBounds(30, 128, 89, 17);
+        getContentPane().add(labelCargo);
+        cbCargo.addItem("Seleccione");
+		cbCargo.addItem("Alumno");
+		cbCargo.addItem("Profesor");
+		getContentPane().add(cbCargo);
 
         // Acción para el botón "Iniciar Sesión"
         loginbtn.addActionListener(new ActionListener() {

@@ -25,6 +25,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\Proyecto-Compartido-main"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\Servicios"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\PrimeraVentanaa"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\PrimeraVentana"/>

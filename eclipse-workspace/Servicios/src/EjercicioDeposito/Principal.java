@@ -1,4 +1,4 @@
-package Ejercicio2;
+package EjercicioDeposito;
 public class Principal {
    
     public static void main(String[] args) {

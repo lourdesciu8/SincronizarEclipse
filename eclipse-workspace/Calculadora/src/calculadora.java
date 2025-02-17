@@ -28,7 +28,7 @@ public class calculadora extends JFrame implements ActionListener {
         panelBotones.setLayout(new GridLayout(4, 4, 5, 5)); // 4 filas x 4 columnas con espacio de 5px entre botones
 
         // Botones
-        String[] botones = {
+        String botones []= {
                 "7", "8", "9", "C",
                 "4", "5", "6", "*",
                 "1", "2", "3", "/",

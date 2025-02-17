@@ -2,41 +2,46 @@ package model;
 
 import java.util.ArrayList;
 
-public class Alumno {
-    private String nombre;
-    private ArrayList<String> modulos;
-    private ArrayList<Double> notas; 
+public class Alumno extends Usuario {
+    private String dni_alumno;
+    private ArrayList<String> asignatura = new ArrayList<>();
+    private ArrayList<String> notas = new ArrayList<>(); 
 
-    public Alumno(String nombre) {
-        this.nombre = nombre;
-        this.modulos = new ArrayList<>(); //Así cada alumno tiene su lista de módulos
-        this.notas = new ArrayList<>();
+    public Alumno(String nombre, String apellidos, String direccion, String pass) {
+        super(nombre, apellidos, direccion, pass);
     }
 
-    public String getNombre() {
-        return nombre;
+    public Alumno(String nombre, String apellidos, String direccion, String pass, String dni_alumno) {
+        super(nombre, apellidos, direccion, pass);
+        this.dni_alumno = dni_alumno;
     }
 
-    public void agregarNota(String modulo, double nota) {
-        this.modulos.add(modulo);
-        this.notas.add(nota);
+    public String getDni_alumno() {
+        return dni_alumno;
     }
 
-    public ArrayList<String> getModulos() {
-        return modulos;
+    public ArrayList<String> getAsignatura() {
+        return asignatura;
     }
 
-    public ArrayList<Double> getNotas() {
+    public ArrayList<String> getNotas() {
         return notas;
     }
 
-    public String mostrarNotas() {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < modulos.size(); i++) {
-            sb.append("Módulo: ").append(modulos.get(i))
-              .append(", Nota: ").append(notas.get(i))
-              .append("\n");
-        }
-        return sb.toString();
+    public void setDni_alumno(String dni_alumno) {
+        this.dni_alumno = dni_alumno;
+    }
+
+    public void setAsignatura(ArrayList<String> asignatura) {
+        this.asignatura = asignatura;
+    }
+
+    public void setNotas(ArrayList<String> notas) {
+        this.notas = notas; 
+    }
+
+    @Override
+    public String toString() {
+        return "Alumno [dni_alumno=" + dni_alumno + ", asignatura=" + asignatura + ", notas=" + notas + "]";
     }
 }

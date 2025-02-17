@@ -1,4 +1,4 @@
-package Ejercicio2;
+package EjercicioDeposito;
 public class Productor extends Thread{
  
     Monitor mon;

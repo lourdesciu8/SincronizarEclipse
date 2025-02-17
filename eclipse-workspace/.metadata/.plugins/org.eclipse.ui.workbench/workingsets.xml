@@ -4,21 +4,35 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696955341471_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733133845473_4" label="PSP" name="PSP">
 <item elementID="=ActividadEvaluable1PSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=BebederoPerrosSemaforos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Donaciones_hilos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=MuseoPresencial" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Naufragos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=temaDosProgramacionMultihilo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Servicios" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Deposito" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=EstacionDeTrenes" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BebederoPerrosSemaforos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PresencialesEneroPSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=EstacionTrenesPresencial" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CarreraGalgos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ParqueSemaforos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=SupermercadoSemaforos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ActividadEvaluable2PSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SocketsEdadTCP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733134121652_8" label="DesarrolloInterfaces" name="DesarrolloInterfaces">
 <item elementID="=EjerciciosLayouts" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CitaMedica" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PythonPrimerosEjercicios" type="4"/>
+<item elementID="=EjercicioDeEventos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Proyecto-Compartido-main" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Calculadora" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=PrimeraVentana" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ventanasComponentes" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=VentanaVentas" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PythonProyecto" type="4"/>
 <item elementID="=ActividadEvaluable1DesarrolloInterfaces" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Eventos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733134789512_13" label="AñoPasado" name="AñoPasado">
 <item elementID="=SegundaSesionProgramacion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -52,7 +66,7 @@
 <workingSet IMemento.internal.id="DesarrolloInterfaces"/>
 <workingSet IMemento.internal.id="PSP"/>
 </workingSet>
-<mruList name="DesarrolloInterfaces"/>
 <mruList name="PSP"/>
+<mruList name="DesarrolloInterfaces"/>
 <mruList name="AñoPasado"/>
 </workingSetManager>

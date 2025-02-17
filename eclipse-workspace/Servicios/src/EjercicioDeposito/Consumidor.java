@@ -1,4 +1,4 @@
-package Ejercicio2;
+package EjercicioDeposito;
 public class Consumidor extends Thread {
     
     Monitor mon;

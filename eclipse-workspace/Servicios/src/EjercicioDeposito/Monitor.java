@@ -1,4 +1,4 @@
-package Ejercicio2;
+package EjercicioDeposito;
 public class Monitor {
         
     private static int nivel; //Nivel del deposito

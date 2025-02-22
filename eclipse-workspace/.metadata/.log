@@ -1101,3 +1101,519 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.python.pydev.shared_core 1 1 2025-02-12 18:02:59.842
 !MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-02-17 22:05:11.795 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-17 22:05:16.185
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-17 22:05:18.646
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-17 22:05:25.356
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-17 22:05:25.367
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-17 22:05:25.393
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-17 22:05:56.765
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-17 22:06:59.025
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-17 22:06:59.071
+!MESSAGE Interpreter: python3 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python3 not found
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:406)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinMod(AbstractInterpreterManager.java:138)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinCompletions(AbstractInterpreterManager.java:112)
+	at org.python.pydev.plugin.nature.PythonNature.getBuiltinCompletions(PythonNature.java:1172)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinComps(AbstractASTManager.java:2016)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinCompletions(AbstractASTManager.java:2004)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.<init>(AbstractScopeAnalyzerVisitor.java:162)
+	at com.python.pydev.analysis.visitors.OccurrencesVisitor.<init>(OccurrencesVisitor.java:109)
+	at com.python.pydev.analysis.OccurrencesAnalyzer.analyzeDocument(OccurrencesAnalyzer.java:54)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:325)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-17 22:54:48.919
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-17 22:54:51.992
+!MESSAGE Interpreter: python3 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python3 not found
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:406)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinMod(AbstractInterpreterManager.java:138)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinCompletions(AbstractInterpreterManager.java:112)
+	at org.python.pydev.plugin.nature.PythonNature.getBuiltinCompletions(PythonNature.java:1172)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinComps(AbstractASTManager.java:2016)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinCompletions(AbstractASTManager.java:2004)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.<init>(AbstractScopeAnalyzerVisitor.java:162)
+	at com.python.pydev.analysis.visitors.OccurrencesVisitor.<init>(OccurrencesVisitor.java:109)
+	at com.python.pydev.analysis.OccurrencesAnalyzer.analyzeDocument(OccurrencesAnalyzer.java:54)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:325)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-17 22:56:06.626
+!MESSAGE Interpreter: python3 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python3 not found
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:406)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinMod(AbstractInterpreterManager.java:138)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinCompletions(AbstractInterpreterManager.java:112)
+	at org.python.pydev.plugin.nature.PythonNature.getBuiltinCompletions(PythonNature.java:1172)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinComps(AbstractASTManager.java:2016)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinCompletions(AbstractASTManager.java:2004)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getGlobalCompletions(AbstractASTManager.java:1981)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:836)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:710)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:670)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.internalFindGlobalTokDef(SourceModule.java:1370)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1338)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:1280)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1262)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:825)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:211)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:92)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-17 22:58:57.846
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-17 22:58:57.854
+!MESSAGE Interpreter: python3 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python3 not found
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:406)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinMod(AbstractInterpreterManager.java:138)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinCompletions(AbstractInterpreterManager.java:112)
+	at org.python.pydev.plugin.nature.PythonNature.getBuiltinCompletions(PythonNature.java:1172)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinComps(AbstractASTManager.java:2016)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinCompletions(AbstractASTManager.java:2004)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.<init>(AbstractScopeAnalyzerVisitor.java:162)
+	at com.python.pydev.analysis.visitors.OccurrencesVisitor.<init>(OccurrencesVisitor.java:109)
+	at com.python.pydev.analysis.OccurrencesAnalyzer.analyzeDocument(OccurrencesAnalyzer.java:54)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:325)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-17 23:00:26.516
+!MESSAGE Interpreter: python3 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python3 not found
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:406)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getBuiltinMod(AbstractInterpreterManager.java:138)
+	at org.python.pydev.plugin.nature.PythonNature.getBuiltinMod(PythonNature.java:1182)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getBuiltinMod(AbstractASTManager.java:2023)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:896)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:710)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:670)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.internalFindGlobalTokDef(SourceModule.java:1370)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1338)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:1280)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1262)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:825)
+	at org.python.pydev.ast.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:211)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:92)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-17 23:08:00.623
+!MESSAGE Info: Rebuilding internal caches: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\VentanasPython\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+!SESSION 2025-02-18 16:39:05.586 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 16:39:10.483
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 16:39:12.633
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:39:19.687
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:39:19.704
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-18 16:39:19.709
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:39:19.717
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-18 16:39:19.745
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:39:51.109
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-02-18 16:47:44.913 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 16:47:48.007
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 16:47:49.967
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:47:56.111
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:47:56.125
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:47:56.140
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-18 16:47:56.140
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:48:27.452
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-02-18 16:54:38.039 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 16:54:41.937
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 16:54:43.879
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:54:51.368
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:54:51.392
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:54:51.392
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-18 16:54:51.454
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 16:55:22.758
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-02-18 20:20:16.430 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 20:20:19.975
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-18 20:20:22.139
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-18 20:20:31.699
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 20:20:32.277
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 20:20:32.317
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 20:20:32.319
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-18 20:21:03.869
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-02-19 15:35:19.398 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 15:35:24.194
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 15:35:26.675
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-19 15:35:35.178
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 15:35:35.675
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 15:35:35.679
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 15:35:35.694
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 15:36:07.204
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 15:44:23.876
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-02-19 16:02:46.342 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 16:02:49.290
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 16:02:51.172
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 16:02:57.373
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 16:02:57.379
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 16:02:57.386
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-19 16:02:57.423
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 16:03:28.710
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2025-02-19 16:04:02.125
+!MESSAGE OperationCanceledException
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.checkForCancellation(SubMonitor.java:317)
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.reportTrivialOperation(SubMonitor.java:327)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:1130)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:1021)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.scanFolder(LocalProjectScanner.java:110)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.scanFolder(LocalProjectScanner.java:110)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.scanFolder(LocalProjectScanner.java:110)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.scanFolder(LocalProjectScanner.java:110)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.run(LocalProjectScanner.java:65)
+	at org.eclipse.m2e.core.ui.internal.project.MavenProjectConfigurator.findConfigurableLocations(MavenProjectConfigurator.java:196)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.getImportProposals(SmartImportJob.java:666)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17.run(SmartImportRootWizardPage.java:845)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-02-19 16:04:36.681
+!MESSAGE Failed to cache RepositoryMapping
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/SocketsUDP)[372]: java.lang.Exception: Project 'SocketsUDP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.setSessionProperty(Resource.java:1753)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:731)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:492)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:157)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2025-02-19 16:04:36.684
+!MESSAGE Project 'SocketsUDP' is not open.
+!STACK 0
+java.lang.Exception: Project 'SocketsUDP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.setSessionProperty(Resource.java:1753)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:731)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:492)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:157)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.team.core 4 372 2025-02-19 16:04:36.689
+!MESSAGE Project 'SocketsUDP' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/SocketsUDP)[372]: java.lang.Exception: Project 'SocketsUDP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.getPersistentProperty(Resource.java:1167)
+	at org.eclipse.team.core.RepositoryProvider.map(RepositoryProvider.java:134)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:169)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2025-02-19 16:04:36.689
+!MESSAGE Project 'SocketsUDP' is not open.
+!STACK 0
+java.lang.Exception: Project 'SocketsUDP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.getPersistentProperty(Resource.java:1167)
+	at org.eclipse.team.core.RepositoryProvider.map(RepositoryProvider.java:134)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:169)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-02-19 22:03:56.521 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 22:04:01.110
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-19 22:04:03.432
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-19 22:04:12.828
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 22:04:13.102
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 22:04:13.142
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-19 22:04:44.544
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-19 22:10:49.484
+!MESSAGE Info: Rebuilding internal caches: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\VentanaVentasPython\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+!SESSION 2025-02-22 22:31:06.301 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-22 22:31:10.281
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-22 22:31:12.814
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-22 22:31:21.344
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-22 22:31:21.367
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-22 22:31:21.367
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-22 22:31:21.388
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-22 22:31:21.389
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-02-22 22:31:21.413
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-02-22 22:31:52.810
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto

@@ -1,4 +1,5 @@
 //CLASE CON SOLO LA INTERFAZ GRÁFICA
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

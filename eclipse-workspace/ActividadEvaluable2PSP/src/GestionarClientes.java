@@ -5,7 +5,6 @@ import java.net.*;
 
 public class GestionarClientes implements Runnable {
     private Socket cliente;
-    
     public GestionarClientes(Socket cliente) {
         this.cliente = cliente;
     }

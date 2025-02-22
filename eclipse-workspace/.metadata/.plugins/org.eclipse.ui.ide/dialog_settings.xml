@@ -27,6 +27,11 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\DIEvaluable2-main"/>
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\SocketsUDP"/>
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\SocketsTCP"/>
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\VentanasEvaluable2"/>
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\VentanasPython"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\PresencialesEneroPSP"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\EjercicioDeEventos"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\EstacionDeTrenes"/>
@@ -48,7 +53,7 @@
 			<item value="C:\Users\Raul\mi-primer-repo"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="619"/>
+			<item key="DIALOG_X_ORIGIN" value="582"/>
 			<item key="DIALOG_Y_ORIGIN" value="142"/>
 			<item key="DIALOG_WIDTH" value="1138"/>
 			<item key="DIALOG_HEIGHT" value="726"/>

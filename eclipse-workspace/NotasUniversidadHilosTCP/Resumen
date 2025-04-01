@@ -1,0 +1,6 @@
+Resumen del funcionamiento:
+
+El servidor espera conexiones de los clientes en el puerto 5000.
+El cliente se conecta, envía su nombre y luego interactúa con un menú.
+El servidor gestiona la inserción, modificación, consulta y eliminación de notas en un archivo.
+Los hilos permiten que múltiples clientes interactúen de manera independiente.

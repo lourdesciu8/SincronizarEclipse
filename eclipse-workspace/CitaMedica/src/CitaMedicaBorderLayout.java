@@ -31,6 +31,9 @@ public class CitaMedicaBorderLayout extends JFrame {
     private JDateChooser dcFechaCita;
     private JTable tablaCitas;
     private DefaultTableModel modeloTabla;
+    private JButton btnSalir;
+    private JButton btnAgregar;
+    private JButton btnCancelar;
 
     /**
      * Launch the application.
@@ -141,14 +144,20 @@ public class CitaMedicaBorderLayout extends JFrame {
             new String[] { "Nombre", "Apellido", "Teléfono", "Fecha de Cita" }, 
             0
         );
-        tablaCitas = new JTable(modeloTabla);
+        tablaCitas = new JTable(new DefaultTableModel(
+        	new Object[][] {
+        	},
+        	new String[] {
+        		"Nombre", "Apellido", "Tel\u00E9fono", "Fecha de Cita"
+        	}
+        ));
         JScrollPane scrollTabla = new JScrollPane(tablaCitas);
         contentPane.add(scrollTabla, BorderLayout.CENTER);
 
         // Panel inferior con botones
         JPanel panelBotones = new JPanel();
 
-        JButton btnAgregar = new JButton("Agregar Cita");
+        btnAgregar = new JButton("Agregar Cita");
         btnAgregar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -157,7 +166,7 @@ public class CitaMedicaBorderLayout extends JFrame {
         });
         panelBotones.add(btnAgregar);
 
-        JButton btnCancelar = new JButton("Cancelar Cita");
+        btnCancelar = new JButton("Cancelar Cita");
         btnCancelar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -167,6 +176,14 @@ public class CitaMedicaBorderLayout extends JFrame {
         panelBotones.add(btnCancelar);
 
         contentPane.add(panelBotones, BorderLayout.SOUTH);
+        
+        btnSalir = new JButton("Salir");
+        btnSalir.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		System.exit(0);
+        	}
+        });
+        panelBotones.add(btnSalir);
     }
 
     private void agregarCita() {
@@ -211,4 +228,5 @@ public class CitaMedicaBorderLayout extends JFrame {
                     JOptionPane.WARNING_MESSAGE);
         }
     }
+	
 }

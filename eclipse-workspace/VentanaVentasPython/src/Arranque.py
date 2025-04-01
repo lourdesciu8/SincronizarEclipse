@@ -1,8 +1,8 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow
-from ventanaLogeo import Ui_ventanaRegistro  # Importa la clase generada
+from VentanaVentas import Ui_MainWindow  # Importa la clase generada
 
-class VentanaPrincipal(QMainWindow, Ui_ventanaRegistro):
+class VentanaPrincipal(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)  # Configura la UI

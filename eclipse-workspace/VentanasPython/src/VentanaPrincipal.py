@@ -1,5 +1,5 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
-
+import mysql.connector
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -75,6 +75,24 @@ class Ui_MainWindow(object):
 
         # Configurar tabla
         self.configurar_tabla()
+        self.cargar_tabla_desde_bd()
+
+    def conectar_bd(self):
+        return mysql.connector.connect(host="localhost", user="root", password="", database="universidad")
+
+    def cargar_tabla_desde_bd(self):
+        conexion = self.conectar_bd()
+        cursor = conexion.cursor()
+        cursor.execute("SELECT nombre, pass, tipo FROM tipoUsuario")
+        datos = cursor.fetchall()
+        conexion.close()
+        
+        self.modelo.setRowCount(0)
+        for fila, (nombre, password, tipo) in enumerate(datos):
+            self.modelo.insertRow(fila)
+            self.modelo.setItem(fila, 0, QtGui.QStandardItem(nombre))
+            self.modelo.setItem(fila, 1, QtGui.QStandardItem(password))
+            self.modelo.setItem(fila, 2, QtGui.QStandardItem(tipo))
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -107,16 +125,27 @@ class Ui_MainWindow(object):
         self.checkBox_2.setChecked(False)
 
     def insertar_datos(self):
-        """Ejemplo de cómo insertar datos en la tabla (o hacer alguna acción)."""
         usuario = self.lineUsuario.text()
         contrasena = self.linePass.text()
         tipo = self.comboBox.currentText()
 
-        row_position = self.modelo.rowCount()
-        self.modelo.insertRow(row_position)
-        self.modelo.setItem(row_position, 0, QtGui.QStandardItem(usuario))
-        self.modelo.setItem(row_position, 1, QtGui.QStandardItem(contrasena))
-        self.modelo.setItem(row_position, 2, QtGui.QStandardItem(tipo))
+        if not usuario or not contrasena:
+            self.mostrar_mensaje("Error", "Debe completar todos los campos.")
+            return
+
+        conexion = self.conectar_bd()
+        cursor = conexion.cursor()
+        cursor.execute("SELECT * FROM tipoUsuario WHERE nombre = %s", (usuario,))
+        if cursor.fetchone():
+            self.mostrar_mensaje("Aviso", "El usuario ya está registrado.")
+            conexion.close()
+            return
+
+        cursor.execute("INSERT INTO tipoUsuario (nombre, pass, tipo) VALUES (%s, %s, %s)", (usuario, contrasena, tipo))
+        conexion.commit()
+        conexion.close()
+        self.cargar_tabla_desde_bd()
+        self.mostrar_mensaje("Éxito", "Usuario registrado correctamente.")
 
     def configurar_tabla(self):
         """Configura la tabla para usar un modelo adecuado."""
@@ -135,14 +164,25 @@ class Ui_MainWindow(object):
         self.tableView.horizontalHeader().setSectionResizeMode(2, QtWidgets.QHeaderView.ResizeMode.Stretch)
 
     def eliminar_fila(self):
-        """Elimina la fila seleccionada en la tabla."""
-        # Obtener el índice de la fila seleccionada
-        seleccionado = self.tableView.selectionModel().selectedRows()
+        seleccion = self.tableView.selectionModel().selectedRows()
+        if not seleccion:
+            self.mostrar_mensaje("Aviso", "Seleccione una fila para eliminar.")
+            return
+
+        fila = seleccion[0].row()
+        usuario = self.modelo.item(fila, 0).text()
+        
+        conexion = self.conectar_bd()
+        cursor = conexion.cursor()
+        cursor.execute("DELETE FROM tipoUsuario WHERE nombre = %s", (usuario,))
+        conexion.commit()
+        conexion.close()
+        self.modelo.removeRow(fila)
     
-        # Verificar si hay alguna fila seleccionada
-        if seleccionado:
-            # Obtener el índice de la primera fila seleccionada
-            fila = seleccionado[0].row()
+    def mostrar_mensaje(self, titulo, mensaje):
+        msg = QtWidgets.QMessageBox()
+        msg.setWindowTitle(titulo)
+        msg.setText(mensaje)
+        msg.setIcon(QtWidgets.QMessageBox.Icon.Information)
+        msg.exec()
     
-            # Eliminar la fila del modelo
-            self.modelo.removeRow(fila)    

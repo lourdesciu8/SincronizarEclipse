@@ -1,50 +1,35 @@
-# main.py
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QMessageBox
-from ventanaLogeo import Ui_ventanaRegistro  # Importa la UI del login
-from VentanaPrincipal import Ui_MainWindow  # Importa la clase VentanaPrincipal
+from VentanaVentas import Ui_MainWindow  # Importa la clase generada
 
-class VentanaLogin(QMainWindow, Ui_ventanaRegistro):
+class VentanaPrincipal(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        self.setupUi(self)  # Configura la UI
 
-        # Conectar botón de login
-        self.botonEntrar.clicked.connect(self.verificar_credenciales)
+        # Variable que simula un cliente registrado
+        self.cliente_registrado = "Lourdes"  # Solo un cliente en este caso
 
-    def verificar_credenciales(self):
-        usuario_correcto = "admin"
-        contrasena_correcta = "1234"
-    
-        usuario_ingresado = self.campoUsuario.toPlainText()  # Si es QTextEdit
-        contrasena_ingresada = self.lineEdit.text()  # Si es QLineEdit
-        
-        if usuario_ingresado == usuario_correcto and contrasena_ingresada == contrasena_correcta:
-            self.abrir_ventana_principal()
+        # Conecta el botón "Buscar" a la función que realiza la búsqueda
+        self.pushButton.clicked.connect(self.buscar_cliente)
+
+    def buscar_cliente(self):
+        # Obtener el texto introducido en el campo de cliente
+        cliente = self.lineEdit.text()
+
+        # Verificar si el cliente ingresado es el cliente registrado
+        if cliente == self.cliente_registrado:
+            # Mostrar mensaje de éxito
+            QMessageBox.information(self, "Resultado", "¡Cliente encontrado!")
         else:
-            self.mostrar_error()
-
-    def abrir_ventana_principal(self):
-        # Crear una instancia de QMainWindow
-        self.ventana_principal = QMainWindow()
-
-        # Crear una instancia de Ui_MainWindow y aplicar la UI a la ventana
-        self.ui = Ui_MainWindow()  # Crear la instancia aquí
-        self.ui.setupUi(self.ventana_principal)  # Usar setupUi para aplicar la UI a la ventana
-
-        # Mostrar la ventana principal
-        self.ventana_principal.show()
-        self.close()  # Cerrar la ventana de login
-
-    def mostrar_error(self):
-        msg = QMessageBox(self)
-        msg.setWindowTitle("Error")
-        msg.setText("Usuario o contraseña incorrectos")
-        msg.setIcon(QMessageBox.Icon.Critical)
-        msg.exec()
+            # Mostrar mensaje de error
+            QMessageBox.warning(self, "Error", "El cliente no está dado de alta")
+            
+         # Limpiar el campo de texto para que el usuario pueda introducir otro nombre
+        self.lineEdit.clear()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    ventana = VentanaLogin()
+    ventana = VentanaPrincipal()
     ventana.show()
     sys.exit(app.exec())

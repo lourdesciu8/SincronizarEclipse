@@ -36,7 +36,7 @@ public class GalgoInterfaz2 implements Runnable {
         sc.nextLine(); 
 
         // Crear un array de galgos con el tamaño especificado por el usuario
-        GalgoInterfaz galgosArray []  = new GalgoInterfaz[numeroGalgos];
+        GalgoInterfaz2 galgosArray []  = new GalgoInterfaz2[numeroGalgos];
 
         // Solicitar el nombre de cada galgo y asignar un tiempo de carrera aleatorio
         for (int i = 0; i < numeroGalgos; i++) {
@@ -44,11 +44,11 @@ public class GalgoInterfaz2 implements Runnable {
             String nombre = sc.nextLine();
             int tiempoCarrera = random.nextInt(1, 6); // Generar tiempo aleatorio entre 1 y 5 segundos
             System.out.printf("Tiempo de carrera generado para %s: %d segundos%n", nombre, tiempoCarrera); // Imprimir el tiempo generado
-            galgosArray[i] = new GalgoInterfaz(nombre, tiempoCarrera);
+            galgosArray[i] = new GalgoInterfaz2(nombre, tiempoCarrera);
         }
 
         // Iniciar todos los hilos
-        for (GalgoInterfaz galgo : galgosArray) {
+        for (GalgoInterfaz2 galgo : galgosArray) {
             new Thread(galgo).start();
         }
     }

@@ -34,20 +34,20 @@ public class GalgoInterfaz implements Runnable {
 		final int NUMEROGALGOS = 3; //Se considera un valor fijo
 		
 		//Se crea un array de galgos
-        GalgoHerencia galgosArray [] = new GalgoHerencia[3];
+        GalgoInterfaz galgosArray [] = new GalgoInterfaz[3];
 
         // Solicitar el tiempo de carrera para cada galgo
         for (int i = 0; i < NUMEROGALGOS; i++) {
             System.out.printf("Introduce el tiempo de carrera en segundos para el galgo %d: ", i + 1);
             int tiempoCarrera = sc.nextInt();
-            GalgoHerencia g = new GalgoHerencia("Galgo " + (i + 1), tiempoCarrera); // Crear el objeto galgo
+            GalgoInterfaz g = new GalgoInterfaz("Galgo " + (i + 1), tiempoCarrera); // Crear el objeto galgo
             galgosArray[i] = g; // Se asigna al array
 
         }
 
 
         // Iniciar todos los hilos
-        for (GalgoHerencia Galgo : galgosArray) {
+        for (GalgoInterfaz Galgo : galgosArray) {
         	new Thread(Galgo).start();
         }
 		

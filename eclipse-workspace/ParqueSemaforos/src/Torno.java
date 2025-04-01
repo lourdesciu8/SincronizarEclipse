@@ -20,7 +20,7 @@ public class Torno extends Thread {
     public void run() {
         try {
             Random random = new Random();
-            int numPersonas = random.nextInt(30) + 1; // Entre 1 y 30 personas
+            int numPersonas = random.nextInt(30) + 1; // Entre 1 y 30 personas por torno
             for (int i = 0; i < numPersonas; i++) {
                 semaforo.acquire(); // Una persona accede por el torno
                 registrarVisitante();

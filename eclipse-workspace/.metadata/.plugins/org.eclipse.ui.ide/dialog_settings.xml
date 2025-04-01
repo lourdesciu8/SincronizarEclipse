@@ -27,6 +27,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\PruebaIamgenPython"/>
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\CitaMedicaPython"/>
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\comunicaciónMultihilosTCP"/>
+			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\comunincacionFichero"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\DIEvaluable2-main"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\SocketsUDP"/>
 			<item value="C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\SocketsTCP"/>

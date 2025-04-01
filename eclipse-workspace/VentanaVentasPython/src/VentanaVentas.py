@@ -26,7 +26,8 @@ class Ui_MainWindow(object):
         self.pushButton.setObjectName("pushButton")
         self.lineEdit = QtWidgets.QLineEdit(parent=self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(190, 120, 131, 31))
-        self.lineEdit.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.lineEdit.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);")
         self.lineEdit.setObjectName("lineEdit")
         self.Clientelabel_2 = QtWidgets.QLabel(parent=self.centralwidget)
         self.Clientelabel_2.setGeometry(QtCore.QRect(210, 50, 101, 41))

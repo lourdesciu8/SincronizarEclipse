@@ -21,6 +21,7 @@ import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
+import javax.swing.ScrollPaneConstants;
 
 public class CitaMedicaAbsolute extends JFrame {
 
@@ -88,6 +89,7 @@ public class CitaMedicaAbsolute extends JFrame {
 		contentPane.add(jLabelFecha);
 		
 		scrollPane = new JScrollPane();
+		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 		scrollPane.setBounds(21, 148, 405, 151);
 		contentPane.add(scrollPane);
 		

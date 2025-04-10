@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="307.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrincipalController">
+   <children>
+      <Label fx:id="lblusuario" layoutX="75.0" layoutY="70.0" text="USUARIO" />
+      <TextField fx:id="textUsuario" layoutX="153.0" layoutY="66.0" />
+      <Label fx:id="lblpass" layoutX="50.0" layoutY="110.0" text="CONTRASEÑA" />
+      <PasswordField fx:id="textPass" layoutX="153.0" layoutY="106.0" />
+      <Button fx:id="btnEntrar" layoutX="346.0" layoutY="79.0" onAction="#AccionEntrar" text="ENTRAR" />
+      <Button fx:id="btnLimpiar" layoutX="166.0" layoutY="212.0" onAction="#AccionLimpiar" text="LIMPIAR CAMPOS" />
+      <Button fx:id="btnSalir" layoutX="346.0" layoutY="141.0" onAction="#AccionSalir" prefHeight="26.0" prefWidth="60.0" text="SALIR" />
+      <Label fx:id="lblcargo" layoutX="80.0" layoutY="154.0" text="CARGO" />
+      <ComboBox fx:id="comboCargo" layoutX="153.0" layoutY="150.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

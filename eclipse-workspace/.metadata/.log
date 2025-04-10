@@ -6146,3 +6146,1694 @@ org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpre
 
 !ENTRY org.python.pydev.shared_core 1 1 2025-04-01 19:38:42.376
 !MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-01 22:08:07.857 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-01 22:08:14.997
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-01 22:08:19.332
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.286
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.292
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-01 22:08:32.352
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.363
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-01 22:08:32.372
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.375
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.387
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.402
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.412
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:08:32.425
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:09:03.977
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-04-01 22:09:14.735
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://download.eclipse.org/efxclipse/updates-nightly/site/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:130)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:114)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2025-04-01 22:09:14.735
+!MESSAGE No repository found at https://download.eclipse.org/efxclipse/updates-nightly/site/.
+!SESSION 2025-04-01 22:10:46.356 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Raul/Documents/GitHub/SincronizarEclipse/eclipse-workspace/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-01 22:11:03.114
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-01 22:11:07.758
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-01 22:11:15.966
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.413
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.423
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.441
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.447
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.454
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.459
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.481
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:16.482
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-01 22:11:16.483
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:11:47.947
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-01 22:38:45.758 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-01 22:38:49.975
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-01 22:38:52.626
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-01 22:39:01.501
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.540
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.552
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.568
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.575
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.605
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.606
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.607
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:01.618
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-01 22:39:01.621
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-01 22:39:33.069
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.jface.text 4 0 2025-04-01 23:05:29.180
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 2, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 2, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:376)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:391)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:680)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2238)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 2, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-04-01 23:33:03.840
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:184)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:121)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:582)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:306)
+	at org.eclipse.jface.resource.DeferredImageDescriptor.createImage(DeferredImageDescriptor.java:85)
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:229)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:56)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.jface.resource.LazyResourceManager.create(LazyResourceManager.java:88)
+	at org.eclipse.jface.resource.LocalResourceManager.allocate(LocalResourceManager.java:71)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:92)
+	at org.eclipse.ui.actions.OpenWithMenu.getImage(OpenWithMenu.java:137)
+	at org.eclipse.ui.actions.OpenWithMenu.createMenuItem(OpenWithMenu.java:174)
+	at org.eclipse.ui.actions.OpenWithMenu.fill(OpenWithMenu.java:271)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:805)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1161)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.processContents(MenuManagerRenderer.java:633)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeTopicChildAdded(MenuManagerRenderer.java:320)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4941)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:131)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:248)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:294)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:304)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:1022)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:960)
+	at org.eclipse.ui.internal.PopupMenuExtender.addMenuContributions(PopupMenuExtender.java:379)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:355)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:467)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1178)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5144)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4761)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2361)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5177)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:241)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3784)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SESSION 2025-04-02 09:55:11.519 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-02 09:55:17.454
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-02 09:55:19.970
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-02 09:55:30.265
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.448
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.459
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.472
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.487
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.490
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-02 09:55:30.494
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.500
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.527
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:55:30.529
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 09:56:01.945
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-02 10:45:05.862 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-02 10:45:07.834
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-02 10:45:09.197
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-02 10:45:14.587
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.857
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.860
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.867
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.872
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.891
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.891
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.892
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:14.893
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-02 10:45:14.893
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-02 10:45:46.172
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-03 16:12:51.522 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-03 16:12:58.144
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-03 16:13:01.049
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.266
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.280
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.295
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.309
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-03 16:13:11.317
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.323
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.334
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.346
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-03 16:13:11.349
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:11.352
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 16:13:42.793
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-03 16:36:28.074
+!MESSAGE Failed to cache RepositoryMapping
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/ProyectoJavaFX)[372]: java.lang.Exception: Project 'ProyectoJavaFX' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.setSessionProperty(Resource.java:1753)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:731)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:492)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:157)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2025-04-03 16:36:28.077
+!MESSAGE Project 'ProyectoJavaFX' is not open.
+!STACK 0
+java.lang.Exception: Project 'ProyectoJavaFX' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.setSessionProperty(Resource.java:1753)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:731)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:492)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:157)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.team.core 4 372 2025-04-03 16:36:28.082
+!MESSAGE Project 'ProyectoJavaFX' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/ProyectoJavaFX)[372]: java.lang.Exception: Project 'ProyectoJavaFX' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.getPersistentProperty(Resource.java:1167)
+	at org.eclipse.team.core.RepositoryProvider.map(RepositoryProvider.java:134)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:169)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2025-04-03 16:36:28.082
+!MESSAGE Project 'ProyectoJavaFX' is not open.
+!STACK 0
+java.lang.Exception: Project 'ProyectoJavaFX' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.getPersistentProperty(Resource.java:1167)
+	at org.eclipse.team.core.RepositoryProvider.map(RepositoryProvider.java:134)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:169)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:115)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2025-04-03 17:08:19.750
+!MESSAGE OperationCanceledException computing hover information in DBConnection.java at offset 716
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
+	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
+	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1048)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+	Suppressed: java.lang.Throwable: Source line 22 :
+-----
+            if (dbconnection == null || dbconnection.isClosed()) {
+                createConnection();
+            }
+        } catch (SQLException e) {
+            System.out.println("Error verificando la conexión: " + e.getMessage());
+        }
+        return dbconnection;
+    }
+
+    private static void createConnection() {
+        String url = "jdbc:mysql://127.0.0.1/|pr";
+-----
+		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
+		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
+		... 10 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-04-03 18:48:45.813
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 368] Resource '/JavaFXEvaluable3/src/resources' does not exist.
+	at org.eclipse.jdt.internal.core.MovePackageFragmentRootOperation.moveResource(MovePackageFragmentRootOperation.java:189)
+	at org.eclipse.jdt.internal.core.MovePackageFragmentRootOperation.executeOperation(MovePackageFragmentRootOperation.java:143)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.move(PackageFragmentRoot.java:836)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MovePackageFragmentRootChange.doPerformReorg(MovePackageFragmentRootChange.java:42)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.PackageFragmentRootReorgChange.perform(PackageFragmentRootReorgChange.java:73)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaMoveProcessor$1.perform(JavaMoveProcessor.java:187)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:213)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper$Operation.run(RefactoringExecutionHelper.java:106)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2341)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2338)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:187)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:151)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMoveStarter.run(ReorgMoveStarter.java:73)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:268)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.performDrop(SelectionTransferDropAdapter.java:205)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:251)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:227)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:224)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:104)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:470)
+	at org.eclipse.swt.dnd.DropTarget.Drop_64(DropTarget.java:403)
+	at org.eclipse.swt.dnd.DropTarget$1.method6(DropTarget.java:265)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:120)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:547)
+	at org.eclipse.swt.dnd.DragSource.lambda$0(DragSource.java:380)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+Caused by: java.lang.Exception: Resource '/JavaFXEvaluable3/src/resources' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.checkMoveRequirements(Resource.java:409)
+	at org.eclipse.core.internal.resources.Resource.assertMoveRequirements(Resource.java:229)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1531)
+	at org.eclipse.jdt.internal.core.MovePackageFragmentRootOperation.moveResource(MovePackageFragmentRootOperation.java:187)
+	... 85 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/JavaFXEvaluable3/src/resources)[368]: java.lang.Exception: Resource '/JavaFXEvaluable3/src/resources' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.checkMoveRequirements(Resource.java:409)
+	at org.eclipse.core.internal.resources.Resource.assertMoveRequirements(Resource.java:229)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1531)
+	at org.eclipse.jdt.internal.core.MovePackageFragmentRootOperation.moveResource(MovePackageFragmentRootOperation.java:187)
+	at org.eclipse.jdt.internal.core.MovePackageFragmentRootOperation.executeOperation(MovePackageFragmentRootOperation.java:143)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.move(PackageFragmentRoot.java:836)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MovePackageFragmentRootChange.doPerformReorg(MovePackageFragmentRootChange.java:42)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.PackageFragmentRootReorgChange.perform(PackageFragmentRootReorgChange.java:73)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaMoveProcessor$1.perform(JavaMoveProcessor.java:187)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:213)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper$Operation.run(RefactoringExecutionHelper.java:106)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2341)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2338)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:187)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:151)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMoveStarter.run(ReorgMoveStarter.java:73)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:268)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.performDrop(SelectionTransferDropAdapter.java:205)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:251)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:227)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:224)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:104)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:470)
+	at org.eclipse.swt.dnd.DropTarget.Drop_64(DropTarget.java:403)
+	at org.eclipse.swt.dnd.DropTarget$1.method6(DropTarget.java:265)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:120)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:547)
+	at org.eclipse.swt.dnd.DragSource.lambda$0(DragSource.java:380)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2025-04-03 18:48:45.814
+!MESSAGE Resource '/JavaFXEvaluable3/src/resources' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/JavaFXEvaluable3/src/resources' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:244)
+	at org.eclipse.core.internal.resources.Resource.checkMoveRequirements(Resource.java:409)
+	at org.eclipse.core.internal.resources.Resource.assertMoveRequirements(Resource.java:229)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1531)
+	at org.eclipse.jdt.internal.core.MovePackageFragmentRootOperation.moveResource(MovePackageFragmentRootOperation.java:187)
+	at org.eclipse.jdt.internal.core.MovePackageFragmentRootOperation.executeOperation(MovePackageFragmentRootOperation.java:143)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.move(PackageFragmentRoot.java:836)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MovePackageFragmentRootChange.doPerformReorg(MovePackageFragmentRootChange.java:42)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.PackageFragmentRootReorgChange.perform(PackageFragmentRootReorgChange.java:73)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaMoveProcessor$1.perform(JavaMoveProcessor.java:187)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:213)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper$Operation.run(RefactoringExecutionHelper.java:106)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6106)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2341)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2338)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:187)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:151)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMoveStarter.run(ReorgMoveStarter.java:73)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:268)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.performDrop(SelectionTransferDropAdapter.java:205)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:251)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:227)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:224)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:104)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1197)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:852)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:470)
+	at org.eclipse.swt.dnd.DropTarget.Drop_64(DropTarget.java:403)
+	at org.eclipse.swt.dnd.DropTarget$1.method6(DropTarget.java:265)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:120)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:547)
+	at org.eclipse.swt.dnd.DragSource.lambda$0(DragSource.java:380)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SESSION 2025-04-03 21:06:23.674 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-03 21:06:28.581
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-03 21:06:31.191
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:41.957
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:42.004
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:42.028
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:42.046
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:42.048
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:42.071
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-03 21:06:42.081
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:42.085
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:06:42.086
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-03 21:06:42.087
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-03 21:07:13.577
+!MESSAGE C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.isSameFile(WindowsFileSystemProvider.java:465)
+	at java.base/java.nio.file.Files.isSameFile(Files.java:1547)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.isRootPath(DefaultPathsForInterpreterInfo.java:86)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.forceDeselect(DefaultPathsForInterpreterInfo.java:49)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo$HelperToComputeIfPathIsInInterpreter.isInterpreterPath(InterpreterInfo.java:342)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.fromString(InterpreterInfo.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:381)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager$CreateInterpreterInfoCallback.createInterpreterInfo(SyncSystemModulesManager.java:172)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.updateStructures(SyncSystemModulesManager.java:278)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-03 21:07:13.628
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-04 22:22:13.625 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-04 22:22:18.184
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-04 22:22:19.972
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-04 22:22:26.396
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.852
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.867
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.875
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.881
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.891
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-04 22:22:26.892
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.895
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.898
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:26.903
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-04 22:22:58.424
+!MESSAGE C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.isSameFile(WindowsFileSystemProvider.java:465)
+	at java.base/java.nio.file.Files.isSameFile(Files.java:1547)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.isRootPath(DefaultPathsForInterpreterInfo.java:86)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.forceDeselect(DefaultPathsForInterpreterInfo.java:49)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo$HelperToComputeIfPathIsInInterpreter.isInterpreterPath(InterpreterInfo.java:342)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.fromString(InterpreterInfo.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:381)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager$CreateInterpreterInfoCallback.createInterpreterInfo(SyncSystemModulesManager.java:172)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.updateStructures(SyncSystemModulesManager.java:278)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-04 22:22:58.439
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-05 13:14:13.310 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-05 13:14:19.268
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-05 13:14:20.847
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-05 13:14:22.255
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-05 13:14:32.734
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:14:32.856
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:14:32.866
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:14:32.885
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:14:32.898
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-05 13:14:32.903
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:14:32.912
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:14:32.917
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:14:32.924
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-05 13:15:04.394
+!MESSAGE C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.isSameFile(WindowsFileSystemProvider.java:465)
+	at java.base/java.nio.file.Files.isSameFile(Files.java:1547)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.isRootPath(DefaultPathsForInterpreterInfo.java:86)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.forceDeselect(DefaultPathsForInterpreterInfo.java:49)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo$HelperToComputeIfPathIsInInterpreter.isInterpreterPath(InterpreterInfo.java:342)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.fromString(InterpreterInfo.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:381)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager$CreateInterpreterInfoCallback.createInterpreterInfo(SyncSystemModulesManager.java:172)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.updateStructures(SyncSystemModulesManager.java:278)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 13:15:04.433
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-05 14:00:53.341 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-05 14:00:57.534
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-05 14:01:00.009
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-05 14:01:10.309
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.742
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.742
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.746
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.756
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.790
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.790
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.791
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:10.792
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-05 14:01:10.820
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-05 14:01:42.162
+!MESSAGE C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.isSameFile(WindowsFileSystemProvider.java:465)
+	at java.base/java.nio.file.Files.isSameFile(Files.java:1547)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.isRootPath(DefaultPathsForInterpreterInfo.java:86)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.forceDeselect(DefaultPathsForInterpreterInfo.java:49)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo$HelperToComputeIfPathIsInInterpreter.isInterpreterPath(InterpreterInfo.java:342)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.fromString(InterpreterInfo.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:381)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager$CreateInterpreterInfoCallback.createInterpreterInfo(SyncSystemModulesManager.java:172)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.updateStructures(SyncSystemModulesManager.java:278)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 14:01:42.198
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.jdt.ui 4 0 2025-04-05 14:28:07.191
+!MESSAGE OperationCanceledException computing hover information in VentanaAlumnoController.java at offset 3227
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
+	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
+	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1048)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+	Suppressed: java.lang.Throwable: Source line 105 :
+-----
+        ObservableList<AlumnoRow> rows = FXCollections.observableArrayList();
+        for (String[] fila : datos) {
+            // fila[0] = id, fila[1] = nombre, fila[2] = apellido, fila[3] = nota
+            // Lo juntamos en un String
+            String info = Arrays.toString(fila); // Ej: "[1, Pepe, Pérez, 8.0]"
+            rows.add(new AlumnoRow(info));
+        }
+        table.setItems(rows);
+    }
+    
+ // Clase |pa la tabla
+-----
+		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
+		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
+		... 10 more
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2025-04-05 14:36:26.288
+!MESSAGE Cannot invoke "String.lastIndexOf(int)" because "name" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.lastIndexOf(int)" because "name" is null
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1054)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1596)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1682)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:92)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:119)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:95)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:201)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:400)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:345)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2025-04-05 14:36:47.559
+!MESSAGE Cannot invoke "String.lastIndexOf(int)" because "name" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.lastIndexOf(int)" because "name" is null
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1054)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1596)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1682)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:92)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:119)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:95)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:201)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:400)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:345)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2025-04-05 14:38:23.737
+!MESSAGE Cannot invoke "String.lastIndexOf(int)" because "name" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.lastIndexOf(int)" because "name" is null
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:1054)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1596)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1682)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
+	at org.eclipse.fx.ide.model.internal.FXCtrlEventMethod.isEventMethod(FXCtrlEventMethod.java:92)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getLocalEventMethods(FXCtrlClass.java:119)
+	at org.eclipse.fx.ide.model.internal.FXCtrlClass.getAllEventMethods(FXCtrlClass.java:95)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:201)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:400)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:345)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+!SESSION 2025-04-05 17:46:55.207 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-05 17:47:00.932
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-05 17:47:03.759
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-05 17:47:14.931
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:15.029
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:15.046
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:15.071
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:15.086
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-05 17:47:15.090
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:15.093
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:15.102
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:15.108
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-05 17:47:46.513
+!MESSAGE C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.isSameFile(WindowsFileSystemProvider.java:465)
+	at java.base/java.nio.file.Files.isSameFile(Files.java:1547)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.isRootPath(DefaultPathsForInterpreterInfo.java:86)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.forceDeselect(DefaultPathsForInterpreterInfo.java:49)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo$HelperToComputeIfPathIsInInterpreter.isInterpreterPath(InterpreterInfo.java:342)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.fromString(InterpreterInfo.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:381)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager$CreateInterpreterInfoCallback.createInterpreterInfo(SyncSystemModulesManager.java:172)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.updateStructures(SyncSystemModulesManager.java:278)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-05 17:47:46.589
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-07 17:28:32.984 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-07 17:28:37.956
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-07 17:28:41.411
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-07 17:28:53.187
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.658
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.658
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.673
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.689
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.705
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-07 17:28:53.705
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.720
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.720
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:28:53.736
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-07 17:29:25.153
+!MESSAGE C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.isSameFile(WindowsFileSystemProvider.java:465)
+	at java.base/java.nio.file.Files.isSameFile(Files.java:1547)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.isRootPath(DefaultPathsForInterpreterInfo.java:86)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.forceDeselect(DefaultPathsForInterpreterInfo.java:49)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo$HelperToComputeIfPathIsInInterpreter.isInterpreterPath(InterpreterInfo.java:342)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.fromString(InterpreterInfo.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:381)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager$CreateInterpreterInfoCallback.createInterpreterInfo(SyncSystemModulesManager.java:172)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.updateStructures(SyncSystemModulesManager.java:278)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-07 17:29:25.201
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+!SESSION 2025-04-08 15:50:52.751 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-08 15:50:59.241
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-08 15:51:02.239
+!MESSAGE Logback config file: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-08 15:51:14.248
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Raul'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.703
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/AlumnosProfesoresPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.723
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/CitaMedicaPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.735
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PruebaIamgenPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.745
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonPrimerosEjercicios
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-08 15:51:14.749
+!MESSAGE Did not expect the interpreter manager to be null.
+!STACK 0
+org.python.pydev.core.ProjectMisconfiguredException: Did not expect the interpreter manager to be null.
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1363)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:899)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:858)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1223)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:203)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.757
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.765
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/Simulacro1DI
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.778
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanaVentasPython
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:14.782
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/VentanasPython
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-04-08 15:51:46.368
+!MESSAGE C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Raul\Documents\GitHub\SincronizarEclipse\eclipse-workspace\ProyectoJavaFX
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.isSameFile(WindowsFileSystemProvider.java:465)
+	at java.base/java.nio.file.Files.isSameFile(Files.java:1547)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.isRootPath(DefaultPathsForInterpreterInfo.java:86)
+	at org.python.pydev.ast.interpreter_managers.DefaultPathsForInterpreterInfo.forceDeselect(DefaultPathsForInterpreterInfo.java:49)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo$HelperToComputeIfPathIsInInterpreter.isInterpreterPath(InterpreterInfo.java:342)
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.fromString(InterpreterInfo.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:381)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager$CreateInterpreterInfoCallback.createInterpreterInfo(SyncSystemModulesManager.java:172)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.updateStructures(SyncSystemModulesManager.java:278)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-04-08 15:51:46.402
+!MESSAGE Interpreter info still not fully configured (interpreter substitutions won't be available). Project: P/PythonProyecto
+
+!ENTRY org.eclipse.wb.core 4 4 2025-04-08 17:32:46.792
+!MESSAGE Designer [1.18.0.202411152029.202504081732]: Cannot invoke "org.eclipse.jdt.core.dom.IMethodBinding.isConstructor()" because "methodBinding" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.IMethodBinding.isConstructor()" because "methodBinding" is null
+	at org.eclipse.wb.internal.core.model.description.ComponentDescription.getConstructor(ComponentDescription.java:291)
+	at org.eclipse.wb.internal.core.model.creation.ConstructorCreationSupport.initializeConstructorDescription(ConstructorCreationSupport.java:155)
+	at org.eclipse.wb.internal.core.model.creation.ConstructorCreationSupport.setJavaInfo(ConstructorCreationSupport.java:186)
+	at org.eclipse.wb.core.model.JavaInfo.<init>(JavaInfo.java:142)
+	at org.eclipse.wb.core.model.AbstractComponentInfo.<init>(AbstractComponentInfo.java:42)
+	at org.eclipse.wb.internal.swing.model.component.ComponentInfo.<init>(ComponentInfo.java:65)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.<init>(ContainerInfo.java:105)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.createJavaInfo(JavaInfoUtils.java:410)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.createJavaInfo(JavaInfoUtils.java:392)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.createJavaInfo(JavaInfoUtils.java:379)
+	at org.eclipse.wb.internal.swing.parser.ParseFactorySimpleModelCic.create(ParseFactorySimpleModelCic.java:67)
+	at org.eclipse.wb.internal.core.parser.JavaInfoParser$ExecutionFlowParseVisitor.endVisit(JavaInfoParser.java:678)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$ExecutionFlowHandler.invoke(ExecutionFlowUtils.java:1284)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$VisitorStub$ByteBuddy$2MLcC3OU.endVisit(Unknown Source)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:307)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3312)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3360)
+	at org.eclipse.jdt.core.dom.Assignment.accept0(Assignment.java:303)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3312)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3360)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3312)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:353)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:337)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:250)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:231)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:194)
+	at org.eclipse.wb.internal.core.parser.JavaInfoParser.parseRootMethods(JavaInfoParser.java:309)
+	at org.eclipse.wb.internal.core.parser.JavaInfoParser.parse(JavaInfoParser.java:265)
+	at org.eclipse.wb.internal.core.parser.JavaInfoParser.lambda$0(JavaInfoParser.java:148)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runDesignTime(ExecutionUtils.java:161)
+	at org.eclipse.wb.internal.core.parser.JavaInfoParser.parse(JavaInfoParser.java:148)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:551)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8$1.run(DesignPage.java:466)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4941)
+	at org.eclipse.wb.internal.core.editor.DesignPage$8.run(DesignPage.java:462)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF_withProgress(DesignPage.java:482)
+	at org.eclipse.wb.internal.core.editor.DesignPage.internal_refreshGEF(DesignPage.java:430)
+	at org.eclipse.wb.internal.core.editor.UndoManager.refreshDesignerEditor(UndoManager.java:385)
+	at org.eclipse.wb.internal.core.editor.UndoManager$6.run(UndoManager.java:334)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)

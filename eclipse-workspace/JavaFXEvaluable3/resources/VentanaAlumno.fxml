@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="338.0" prefWidth="529.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="application.VentanaAlumnoController">
+   <children>
+      <Label fx:id="lblVentanaAlumno" layoutX="20.0" layoutY="20.0" prefHeight="35.0" prefWidth="200.0" text="Ventana Alumno" textAlignment="RIGHT">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+      <Label fx:id="lblModulos" layoutX="20.0" layoutY="60.0" prefHeight="26.0" prefWidth="89.0" text="Módulos:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <ComboBox fx:id="comboModulos" layoutX="20.0" layoutY="94.0" onAction="#actionComboBox" prefWidth="200.0" />
+      <ScrollPane fx:id="scrollPane" layoutX="278.0" layoutY="69.0" prefHeight="233.0" prefWidth="209.0">
+         <content>
+            <TableView fx:id="table" prefHeight="235.0" prefWidth="207.0">
+              <columns>
+                <TableColumn fx:id="column" prefWidth="195.20000916719437" text="Notas" />
+              </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <Button fx:id="btnSalir" layoutX="39.0" layoutY="269.0" mnemonicParsing="false" onAction="#ActionSalir" prefHeight="35.0" prefWidth="97.0" text="SALIR" />
+   </children>
+</AnchorPane>

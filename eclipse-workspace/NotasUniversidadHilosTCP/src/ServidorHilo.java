@@ -39,7 +39,7 @@ public class ServidorHilo extends Thread {
             }
             
             // Mostramos el nombre recibido (del constructor)
-            System.out.println("Nombre del cliente (del constructor): " + nombreCliente);
+            System.out.println("Nombre del cliente : " + nombreCliente);
 
             // Bucle para gestionar las opciones del cliente
             boolean salir = false;

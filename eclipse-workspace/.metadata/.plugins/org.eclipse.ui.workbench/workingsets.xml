@@ -25,6 +25,9 @@
 <item elementID="=CarreraGalgos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ParqueSemaforos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=SupermercadoSemaforos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ExamenOrdinarioMayoPSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=FicherosParOimpar" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ActividadEvaluable3PSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733134121652_8" label="DesarrolloInterfaces" name="DesarrolloInterfaces">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PythonPrimerosEjercicios" type="4"/>
@@ -48,6 +51,8 @@
 <item elementID="=ActividadEvaluable1DesarrolloInterfaces" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Eventos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=VentanasEvaluable2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ExamenOrdinarioMayoDI" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=JavaFXEvaluable3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733134789512_13" label="AñoPasado" name="AñoPasado">
 <item elementID="=SegundaSesionProgramacion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

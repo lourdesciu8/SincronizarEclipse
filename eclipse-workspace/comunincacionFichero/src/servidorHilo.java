@@ -27,6 +27,7 @@ public class servidorHilo extends Thread {
     
     public void run() {
         int opcion;
+        //Añadir que si no existe el txt, que se cree
         File f = new File("numeros.txt");
         boolean salir = false;
         while (!salir) {

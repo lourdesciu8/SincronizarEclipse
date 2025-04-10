@@ -16,11 +16,11 @@ public class Conexion {
 
 			Class.forName("com.mysql.jdbc.Driver");
 
-			String url = "jdbc:mysql://localhost:3306/proyecto";
+			String url = "jdbc:mysql://localhost:33060/proyecto?useSSL=false";
 
 			String usuario = "root";
 
-			String pass = "";
+			String pass = "secret";
 
 			conn = (Connection) DriverManager.getConnection(url, usuario, pass);
 

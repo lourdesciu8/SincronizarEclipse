@@ -19,9 +19,12 @@ public class DBConnection {
     }
 
     private static void createConnection() {
-        String url = "jdbc:mysql://127.0.0.1/gestion_modulos";
+        String url = "jdbc:mysql://127.0.0.1:33060/gestion_modulos?useSSL=false";
+        //pass: secret
+        //"jdbc:mysql://localhost:33060/proyecto?useSSL=false";
+        
         try {
-            dbconnection = DriverManager.getConnection(url, "root", "");
+            dbconnection = DriverManager.getConnection(url, "root", "secret");
             System.out.println("Conexión establecida con la base de datos.");
         } catch (SQLException e) {
             System.out.println("Error en la conexión al servidor de la base de datos: " + e.getMessage());

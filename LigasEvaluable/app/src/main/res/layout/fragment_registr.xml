@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="48dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APP LIGAS"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:layout_marginBottom="36dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/nombrenuevo"
+        android:hint="@string/introduce_tu_nombre"
+        android:textSize="16sp"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/correoNuevo"
+        android:hint="@string/introduce_correo"
+        android:textSize="16sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/passNuevo"
+        android:hint="@string/introduce_contrase_a"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="@string/Resgistrarse"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorApp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnInciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/iniciar_sesion"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorApp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

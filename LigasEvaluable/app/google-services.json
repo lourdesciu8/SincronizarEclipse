@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "535356766487",
+    "firebase_url": "https://ligasevaluable3-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ligasevaluable3",
+    "storage_bucket": "ligasevaluable3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535356766487:android:a2de9c37625280d1249f52",
+        "android_client_info": {
+          "package_name": "com.example.ligasevaluable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUA0gdH-ASSLajZqnNaxXfXITEPtpu2Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

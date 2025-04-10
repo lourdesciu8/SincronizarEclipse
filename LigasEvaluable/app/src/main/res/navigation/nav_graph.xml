@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_login"
+        android:id="@+id/loginFragment"
+        android:name="com.example.ligasevaluable.ui.fragment.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_principalFragment"
+            app:destination="@id/principalFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_loginFragment_to_registrFragment"
+            app:destination="@id/registrFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_registr"
+        android:id="@+id/registrFragment"
+        android:name="com.example.ligasevaluable.ui.fragment.RegistrFragment"
+        android:label="RegistrFragment" >
+        <action
+            android:id="@+id/action_registrFragment_to_principalFragment"
+            app:destination="@id/principalFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_registrFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_principal"
+        android:id="@+id/principalFragment"
+        android:name="com.example.ligasevaluable.ui.fragment.PrincipalFragment"
+        android:label="PrincipalFragment" >
+        <action
+            android:id="@+id/action_principalFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_principalFragment_to_ligaFragment"
+            app:destination="@id/ligaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_principalFragment_to_favoritoFragment"
+            app:destination="@id/favoritoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_liga"
+        android:id="@+id/ligaFragment"
+        android:name="com.example.ligasevaluable.ui.fragment.LigaFragment"
+        android:label="LigaFragment" >
+        <action
+            android:id="@+id/action_ligaFragment_to_principalFragment"
+            app:destination="@id/principalFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_favorito"
+        android:id="@+id/favoritoFragment"
+        android:name="com.example.ligasevaluable.ui.fragment.FavoritoFragment"
+        android:label="FavoritoFragment" >
+        <action
+            android:id="@+id/action_favoritoFragment_to_principalFragment"
+            app:destination="@id/principalFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+</navigation>
